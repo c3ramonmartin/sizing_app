@@ -1,0 +1,181 @@
+[
+  {
+    "size": "S",
+    "env": "prod",
+    "sizes": {
+      "Leader":1,
+      "Task":1,
+      "Jupyter":1,
+      "Cassandra":3,
+      "Postgres RDS":1,
+      "Jumpserver":1,
+      "C3 Monitoring":0,
+      "C3 Env":1,
+      "Jupyter PU":1
+    }
+  },
+  {
+    "size": "S",
+    "env": "qa",
+    "sizes": {
+      "Leader":1,
+      "Task":1,
+      "Jupyter":1,
+      "Cassandra":2,
+      "Postgres RDS":1,
+      "Jumpserver":1,
+      "C3 Monitoring":0,
+      "C3 Env":1,
+      "Jupyter PU":1
+    }
+  },
+  {
+    "size": "S",
+    "env": "dev",
+    "sizes": {
+      "Leader":1,
+      "Task":1,
+      "Jupyter":1,
+      "Cassandra":2,
+      "Postgres RDS":1,
+      "Jumpserver":1,
+      "C3 Monitoring":0,
+      "C3 Env":1,
+      "Jupyter PU":1
+    }
+  },
+  {
+    "size": "M",
+    "env": "prod",
+    "sizes": {
+      "Leader":2,
+      "Task":2,
+      "Jupyter":1,
+      "Cassandra":6,
+      "Postgres RDS":1,
+      "Jumpserver":1,
+      "C3 Monitoring":0,
+      "C3 Env":1,
+      "Jupyter PU":1
+    }
+  },
+  {
+    "size": "M",
+    "env": "qa",
+    "sizes": {
+      "Leader":1,
+      "Task":1,
+      "Jupyter":2,
+      "Cassandra":6,
+      "Postgres RDS":1,
+      "Jumpserver":1,
+      "C3 Monitoring":0,
+      "C3 Env":1,
+      "Jupyter PU":1
+    }
+  },
+  {
+    "size": "M",
+    "env": "dev",
+    "sizes": {
+      "Leader":1,
+      "Task":1,
+      "Jupyter":2,
+      "Cassandra":6,
+      "Postgres RDS":1,
+      "Jumpserver":1,
+      "C3 Monitoring":0,
+      "C3 Env":1,
+      "Jupyter PU":1
+    }
+  },
+  {
+    "size": "L",
+    "env": "prod",
+    "sizes": {
+      "Leader":2,
+      "Task":5,
+      "Jupyter":1,
+      "Cassandra":12,
+      "Postgres RDS":1,
+      "Jumpserver":1,
+      "C3 Monitoring":0,
+      "C3 Env":1,
+      "Jupyter PU":1
+    }
+  },
+  {
+    "size": "L",
+    "env": "qa",
+    "sizes": {
+      "Leader":2,
+      "Task":5,
+      "Jupyter":3,
+      "Cassandra":12,
+      "Postgres RDS":1,
+      "Jumpserver":1,
+      "C3 Monitoring":0,
+      "C3 Env":1,
+      "Jupyter PU":1
+    }
+  },
+  {
+    "size": "L",
+    "env": "dev",
+    "sizes": {
+      "Leader":2,
+      "Task":3,
+      "Jupyter":3,
+      "Cassandra":6,
+      "Postgres RDS":1,
+      "Jumpserver":1,
+      "C3 Monitoring":0,
+      "C3 Env":1,
+      "Jupyter PU":1
+    }
+  },  {
+    "size": "XL",
+    "env": "prod",
+    "sizes": {
+      "Leader":3,
+      "Task":10,
+      "Jupyter":1,
+      "Cassandra":24,
+      "Postgres RDS":1,
+      "Jumpserver":1,
+      "C3 Monitoring":0,
+      "C3 Env":1,
+      "Jupyter PU":1
+    }
+  },
+  {
+    "size": "XL",
+    "env": "qa",
+    "sizes": {
+      "Leader":1,
+      "Task":5,
+      "Jupyter":3,
+      "Cassandra":24,
+      "Postgres RDS":1,
+      "Jumpserver":1,
+      "C3 Monitoring":0,
+      "C3 Env":1,
+      "Jupyter PU":1
+    }
+  },
+  {
+    "size": "XL",
+    "env": "dev",
+    "sizes": {
+      "Leader":1,
+      "Task":3,
+      "Jupyter":3,
+      "Cassandra":6,
+      "Postgres RDS":1,
+      "Jumpserver":1,
+      "C3 Monitoring":0,
+      "C3 Env":1,
+      "Jupyter PU":1
+    }
+  }
+]

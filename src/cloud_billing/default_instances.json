@@ -1,0 +1,47 @@
+[
+  {
+    "cloud" : "GCP",
+    "purpose" :
+    [
+      {"name":"Leader", "instance_name":"n2-standard-32"},
+      {"name":"Task", "instance_name":"n2-standard-32"},
+      {"name":"Jupyter", "instance_name":"n2-standard-32"},
+      {"name":"Cassandra", "instance_name":"n2-standard-16"},
+      {"name":"Postgres RDS", "instance_name":"n2-highmem-32"},
+      {"name":"Jumpserver", "instance_name":"n2-standard-2"},
+      {"name":"C3 Monitoring", "instance_name":"n2-standard-32"},
+      {"name":"C3 Env", "instance_name":"n2-standard-16"},
+      {"name":"Jupyter PU", "instance_name":"n2-standard-8"}
+    ]
+  },
+  {
+    "cloud" : "AWS",
+    "purpose" :
+    [
+      {"name":"Leader", "instance_name":"r6i.8xlarge"},
+      {"name":"Task", "instance_name":"r6i.8xlarge"},
+      {"name":"Jupyter", "instance_name":"r6i.8xlarge"},
+      {"name":"Cassandra", "instance_name":"r6i.4xlarge"},
+      {"name":"Postgres RDS", "instance_name":"d3.8xlarge"},
+      {"name":"Jumpserver", "instance_name":"m5a.large"},
+      {"name":"C3 Monitoring", "instance_name":"r6i.8xlarge"},
+      {"name":"C3 Env", "instance_name":"r6i.4xlarge"},
+      {"name":"Jupyter PU", "instance_name":"r6i.2xlarge"}
+    ]
+  },
+  {
+    "cloud" : "AZURE",
+    "purpose" :
+    [
+      {"name":"Leader", "instance_name":"E32s v3"},
+      {"name":"Task", "instance_name":"E32s v3"},
+      {"name":"Jupyter", "instance_name":"E32s v3"},
+      {"name":"Cassandra", "instance_name":"D16ds v4"},
+      {"name":"Postgres RDS", "instance_name":"L32s v2"},
+      {"name":"Jumpserver", "instance_name":"D2ds v4"},
+      {"name":"C3 Monitoring", "instance_name":"E32s v3"},
+      {"name":"C3 Env", "instance_name":"D16s v3"},
+      {"name":"Jupyter PU", "instance_name":"D8s v3"}
+    ]
+  }
+]

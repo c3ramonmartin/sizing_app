@@ -1,0 +1,782 @@
+[
+    {
+        "vCPU": 2,
+        "RAM": 8,
+        "hourly_rate": 0.067006,
+        "instance_name": "e2-standard-2"
+    },
+    {
+        "vCPU": 4,
+        "RAM": 16,
+        "hourly_rate": 0.134012,
+        "instance_name": "e2-standard-4"
+    },
+    {
+        "vCPU": 8,
+        "RAM": 32,
+        "hourly_rate": 0.268024,
+        "instance_name": "e2-standard-8"
+    },
+    {
+        "vCPU": 16,
+        "RAM": 64,
+        "hourly_rate": 0.536048,
+        "instance_name": "e2-standard-16"
+    },
+    {
+        "vCPU": 32,
+        "RAM": 128,
+        "hourly_rate": 1.072096,
+        "instance_name": "e2-standard-32"
+    },
+    {
+        "vCPU": 2,
+        "RAM": 16,
+        "hourly_rate": 0.09039,
+        "instance_name": "e2-highmem-2"
+    },
+    {
+        "vCPU": 4,
+        "RAM": 32,
+        "hourly_rate": 0.18078,
+        "instance_name": "e2-highmem-4"
+    },
+    {
+        "vCPU": 8,
+        "RAM": 64,
+        "hourly_rate": 0.36156,
+        "instance_name": "e2-highmem-8"
+    },
+    {
+        "vCPU": 16,
+        "RAM": 128,
+        "hourly_rate": 0.72312,
+        "instance_name": "e2-highmem-16"
+    },
+    {
+        "vCPU": 2,
+        "RAM": 2,
+        "hourly_rate": 0.049468,
+        "instance_name": "e2-highcpu-2"
+    },
+    {
+        "vCPU": 4,
+        "RAM": 4,
+        "hourly_rate": 0.098936,
+        "instance_name": "e2-highcpu-4"
+    },
+    {
+        "vCPU": 8,
+        "RAM": 8,
+        "hourly_rate": 0.197872,
+        "instance_name": "e2-highcpu-8"
+    },
+    {
+        "vCPU": 16,
+        "RAM": 16,
+        "hourly_rate": 0.395744,
+        "instance_name": "e2-highcpu-16"
+    },
+    {
+        "vCPU": 32,
+        "RAM": 32,
+        "hourly_rate": 0.791488,
+        "instance_name": "e2-highcpu-32"
+    },
+    {
+        "vCPU": 2,
+        "RAM": 8,
+        "hourly_rate": 0.097118,
+        "instance_name": "n2-standard-2"
+    },
+    {
+        "vCPU": 4,
+        "RAM": 16,
+        "hourly_rate": 0.194236,
+        "instance_name": "n2-standard-4"
+    },
+    {
+        "vCPU": 8,
+        "RAM": 32,
+        "hourly_rate": 0.388472,
+        "instance_name": "n2-standard-8"
+    },
+    {
+        "vCPU": 16,
+        "RAM": 64,
+        "hourly_rate": 0.776944,
+        "instance_name": "n2-standard-16"
+    },
+    {
+        "vCPU": 32,
+        "RAM": 128,
+        "hourly_rate": 1.553888,
+        "instance_name": "n2-standard-32"
+    },
+    {
+        "vCPU": 48,
+        "RAM": 192,
+        "hourly_rate": 2.330832,
+        "instance_name": "n2-standard-48"
+    },
+    {
+        "vCPU": 64,
+        "RAM": 256,
+        "hourly_rate": 3.107776,
+        "instance_name": "n2-standard-64"
+    },
+    {
+        "vCPU": 80,
+        "RAM": 320,
+        "hourly_rate": 3.88472,
+        "instance_name": "n2-standard-80"
+    },
+    {
+        "vCPU": 96,
+        "RAM": 384,
+        "hourly_rate": 4.661664,
+        "instance_name": "n2-standard-96"
+    },
+    {
+        "vCPU": 128,
+        "RAM": 512,
+        "hourly_rate": 6.215552,
+        "instance_name": "n2-standard-128"
+    },
+    {
+        "vCPU": 2,
+        "RAM": 16,
+        "hourly_rate": 0.131014,
+        "instance_name": "n2-highmem-2"
+    },
+    {
+        "vCPU": 4,
+        "RAM": 32,
+        "hourly_rate": 0.262028,
+        "instance_name": "n2-highmem-4"
+    },
+    {
+        "vCPU": 8,
+        "RAM": 64,
+        "hourly_rate": 0.524056,
+        "instance_name": "n2-highmem-8"
+    },
+    {
+        "vCPU": 16,
+        "RAM": 128,
+        "hourly_rate": 1.048112,
+        "instance_name": "n2-highmem-16"
+    },
+    {
+        "vCPU": 32,
+        "RAM": 256,
+        "hourly_rate": 2.096224,
+        "instance_name": "n2-highmem-32"
+    },
+    {
+        "vCPU": 48,
+        "RAM": 384,
+        "hourly_rate": 3.144336,
+        "instance_name": "n2-highmem-48"
+    },
+    {
+        "vCPU": 64,
+        "RAM": 512,
+        "hourly_rate": 4.192448,
+        "instance_name": "n2-highmem-64"
+    },
+    {
+        "vCPU": 80,
+        "RAM": 640,
+        "hourly_rate": 5.24056,
+        "instance_name": "n2-highmem-80"
+    },
+    {
+        "vCPU": 96,
+        "RAM": 768,
+        "hourly_rate": 6.288672,
+        "instance_name": "n2-highmem-96"
+    },
+    {
+        "vCPU": 128,
+        "RAM": 864,
+        "hourly_rate": 7.706976,
+        "instance_name": "n2-highmem-128"
+    },
+    {
+        "vCPU": 2,
+        "RAM": 2,
+        "hourly_rate": 0.071696,
+        "instance_name": "n2-highcpu-2"
+    },
+    {
+        "vCPU": 4,
+        "RAM": 4,
+        "hourly_rate": 0.143392,
+        "instance_name": "n2-highcpu-4"
+    },
+    {
+        "vCPU": 8,
+        "RAM": 8,
+        "hourly_rate": 0.286784,
+        "instance_name": "n2-highcpu-8"
+    },
+    {
+        "vCPU": 16,
+        "RAM": 16,
+        "hourly_rate": 0.573568,
+        "instance_name": "n2-highcpu-16"
+    },
+    {
+        "vCPU": 32,
+        "RAM": 32,
+        "hourly_rate": 1.147136,
+        "instance_name": "n2-highcpu-32"
+    },
+    {
+        "vCPU": 48,
+        "RAM": 48,
+        "hourly_rate": 1.720704,
+        "instance_name": "n2-highcpu-48"
+    },
+    {
+        "vCPU": 64,
+        "RAM": 64,
+        "hourly_rate": 2.294272,
+        "instance_name": "n2-highcpu-64"
+    },
+    {
+        "vCPU": 80,
+        "RAM": 80,
+        "hourly_rate": 2.86784,
+        "instance_name": "n2-highcpu-80"
+    },
+    {
+        "vCPU": 96,
+        "RAM": 96,
+        "hourly_rate": 3.441408,
+        "instance_name": "n2-highcpu-96"
+    },
+    {
+        "vCPU": 2,
+        "RAM": 8,
+        "hourly_rate": 0.084492,
+        "instance_name": "n2d-standard-2"
+    },
+    {
+        "vCPU": 4,
+        "RAM": 16,
+        "hourly_rate": 0.168984,
+        "instance_name": "n2d-standard-4"
+    },
+    {
+        "vCPU": 8,
+        "RAM": 32,
+        "hourly_rate": 0.337968,
+        "instance_name": "n2d-standard-8"
+    },
+    {
+        "vCPU": 16,
+        "RAM": 64,
+        "hourly_rate": 0.675936,
+        "instance_name": "n2d-standard-16"
+    },
+    {
+        "vCPU": 32,
+        "RAM": 128,
+        "hourly_rate": 1.351872,
+        "instance_name": "n2d-standard-32"
+    },
+    {
+        "vCPU": 48,
+        "RAM": 192,
+        "hourly_rate": 2.027808,
+        "instance_name": "n2d-standard-48"
+    },
+    {
+        "vCPU": 64,
+        "RAM": 256,
+        "hourly_rate": 2.703744,
+        "instance_name": "n2d-standard-64"
+    },
+    {
+        "vCPU": 80,
+        "RAM": 320,
+        "hourly_rate": 3.37968,
+        "instance_name": "n2d-standard-80"
+    },
+    {
+        "vCPU": 96,
+        "RAM": 384,
+        "hourly_rate": 4.055616,
+        "instance_name": "n2d-standard-96"
+    },
+    {
+        "vCPU": 128,
+        "RAM": 512,
+        "hourly_rate": 5.407488,
+        "instance_name": "n2d-standard-128"
+    },
+    {
+        "vCPU": 224,
+        "RAM": 896,
+        "hourly_rate": 9.463104,
+        "instance_name": "n2d-standard-224"
+    },
+    {
+        "vCPU": 2,
+        "RAM": 16,
+        "hourly_rate": 0.11398,
+        "instance_name": "n2d-highmem-2"
+    },
+    {
+        "vCPU": 4,
+        "RAM": 32,
+        "hourly_rate": 0.22796,
+        "instance_name": "n2d-highmem-4"
+    },
+    {
+        "vCPU": 8,
+        "RAM": 64,
+        "hourly_rate": 0.45592,
+        "instance_name": "n2d-highmem-8"
+    },
+    {
+        "vCPU": 16,
+        "RAM": 128,
+        "hourly_rate": 0.91184,
+        "instance_name": "n2d-highmem-16"
+    },
+    {
+        "vCPU": 32,
+        "RAM": 256,
+        "hourly_rate": 1.82368,
+        "instance_name": "n2d-highmem-32"
+    },
+    {
+        "vCPU": 48,
+        "RAM": 384,
+        "hourly_rate": 2.73552,
+        "instance_name": "n2d-highmem-48"
+    },
+    {
+        "vCPU": 64,
+        "RAM": 512,
+        "hourly_rate": 3.64736,
+        "instance_name": "n2d-highmem-64"
+    },
+    {
+        "vCPU": 80,
+        "RAM": 640,
+        "hourly_rate": 4.5592,
+        "instance_name": "n2d-highmem-80"
+    },
+    {
+        "vCPU": 96,
+        "RAM": 768,
+        "hourly_rate": 5.47104,
+        "instance_name": "n2d-highmem-96"
+    },
+    {
+        "vCPU": 2,
+        "RAM": 2,
+        "hourly_rate": 0.062376,
+        "instance_name": "n2d-highcpu-2"
+    },
+    {
+        "vCPU": 4,
+        "RAM": 4,
+        "hourly_rate": 0.124752,
+        "instance_name": "n2d-highcpu-4"
+    },
+    {
+        "vCPU": 8,
+        "RAM": 8,
+        "hourly_rate": 0.249504,
+        "instance_name": "n2d-highcpu-8"
+    },
+    {
+        "vCPU": 16,
+        "RAM": 16,
+        "hourly_rate": 0.499008,
+        "instance_name": "n2d-highcpu-16"
+    },
+    {
+        "vCPU": 32,
+        "RAM": 32,
+        "hourly_rate": 0.998016,
+        "instance_name": "n2d-highcpu-32"
+    },
+    {
+        "vCPU": 48,
+        "RAM": 48,
+        "hourly_rate": 1.497024,
+        "instance_name": "n2d-highcpu-48"
+    },
+    {
+        "vCPU": 64,
+        "RAM": 64,
+        "hourly_rate": 1.996032,
+        "instance_name": "n2d-highcpu-64"
+    },
+    {
+        "vCPU": 80,
+        "RAM": 80,
+        "hourly_rate": 2.49504,
+        "instance_name": "n2d-highcpu-80"
+    },
+    {
+        "vCPU": 96,
+        "RAM": 96,
+        "hourly_rate": 2.994048,
+        "instance_name": "n2d-highcpu-96"
+    },
+    {
+        "vCPU": 128,
+        "RAM": 128,
+        "hourly_rate": 3.992064,
+        "instance_name": "n2d-highcpu-128"
+    },
+    {
+        "vCPU": 224,
+        "RAM": 224,
+        "hourly_rate": 6.986112,
+        "instance_name": "n2d-highcpu-224"
+    },
+    {
+        "vCPU": 1,
+        "RAM": 4,
+        "hourly_rate": 0.042246,
+        "instance_name": "t2d-standard-1"
+    },
+    {
+        "vCPU": 2,
+        "RAM": 8,
+        "hourly_rate": 0.084492,
+        "instance_name": "t2d-standard-2"
+    },
+    {
+        "vCPU": 4,
+        "RAM": 16,
+        "hourly_rate": 0.168984,
+        "instance_name": "t2d-standard-4"
+    },
+    {
+        "vCPU": 8,
+        "RAM": 32,
+        "hourly_rate": 0.337968,
+        "instance_name": "t2d-standard-8"
+    },
+    {
+        "vCPU": 16,
+        "RAM": 64,
+        "hourly_rate": 0.675936,
+        "instance_name": "t2d-standard-16"
+    },
+    {
+        "vCPU": 32,
+        "RAM": 128,
+        "hourly_rate": 1.351872,
+        "instance_name": "t2d-standard-32"
+    },
+    {
+        "vCPU": 48,
+        "RAM": 192,
+        "hourly_rate": 2.027808,
+        "instance_name": "t2d-standard-48"
+    },
+    {
+        "vCPU": 60,
+        "RAM": 240,
+        "hourly_rate": 2.53476,
+        "instance_name": "t2d-standard-60"
+    },
+    {
+        "vCPU": 1,
+        "RAM": 3,
+        "hourly_rate": 0.04749975,
+        "instance_name": "n1-standard-1"
+    },
+    {
+        "vCPU": 2,
+        "RAM": 7,
+        "hourly_rate": 0.0949995,
+        "instance_name": "n1-standard-2"
+    },
+    {
+        "vCPU": 4,
+        "RAM": 15,
+        "hourly_rate": 0.189999,
+        "instance_name": "n1-standard-4"
+    },
+    {
+        "vCPU": 8,
+        "RAM": 30,
+        "hourly_rate": 0.379998,
+        "instance_name": "n1-standard-8"
+    },
+    {
+        "vCPU": 16,
+        "RAM": 60,
+        "hourly_rate": 0.759996,
+        "instance_name": "n1-standard-16"
+    },
+    {
+        "vCPU": 32,
+        "RAM": 120,
+        "hourly_rate": 1.519992,
+        "instance_name": "n1-standard-32"
+    },
+    {
+        "vCPU": 64,
+        "RAM": 240,
+        "hourly_rate": 3.039984,
+        "instance_name": "n1-standard-64"
+    },
+    {
+        "vCPU": 96,
+        "RAM": 360,
+        "hourly_rate": 4.559976,
+        "instance_name": "n1-standard-96"
+    },
+    {
+        "vCPU": 2,
+        "RAM": 13,
+        "hourly_rate": 0.118303,
+        "instance_name": "n1-highmem-2"
+    },
+    {
+        "vCPU": 4,
+        "RAM": 26,
+        "hourly_rate": 0.236606,
+        "instance_name": "n1-highmem-4"
+    },
+    {
+        "vCPU": 8,
+        "RAM": 52,
+        "hourly_rate": 0.473212,
+        "instance_name": "n1-highmem-8"
+    },
+    {
+        "vCPU": 16,
+        "RAM": 104,
+        "hourly_rate": 0.946424,
+        "instance_name": "n1-highmem-16"
+    },
+    {
+        "vCPU": 32,
+        "RAM": 208,
+        "hourly_rate": 1.892848,
+        "instance_name": "n1-highmem-32"
+    },
+    {
+        "vCPU": 64,
+        "RAM": 416,
+        "hourly_rate": 3.785696,
+        "instance_name": "n1-highmem-64"
+    },
+    {
+        "vCPU": 96,
+        "RAM": 624,
+        "hourly_rate": 5.678544,
+        "instance_name": "n1-highmem-96"
+    },
+    {
+        "vCPU": 2,
+        "RAM": 1,
+        "hourly_rate": 0.0708486,
+        "instance_name": "n1-highcpu-2"
+    },
+    {
+        "vCPU": 4,
+        "RAM": 3,
+        "hourly_rate": 0.1416972,
+        "instance_name": "n1-highcpu-4"
+    },
+    {
+        "vCPU": 8,
+        "RAM": 7,
+        "hourly_rate": 0.2833944,
+        "instance_name": "n1-highcpu-8"
+    },
+    {
+        "vCPU": 16,
+        "RAM": 14,
+        "hourly_rate": 0.5667888,
+        "instance_name": "n1-highcpu-16"
+    },
+    {
+        "vCPU": 32,
+        "RAM": 28,
+        "hourly_rate": 1.1335776,
+        "instance_name": "n1-highcpu-32"
+    },
+    {
+        "vCPU": 64,
+        "RAM": 57,
+        "hourly_rate": 2.2671552,
+        "instance_name": "n1-highcpu-64"
+    },
+    {
+        "vCPU": 96,
+        "RAM": 86,
+        "hourly_rate": 3.4007328,
+        "instance_name": "n1-highcpu-96"
+    },
+    {
+        "vCPU": 4,
+        "RAM": 16,
+        "hourly_rate": 0.2088,
+        "instance_name": "c2-standard-4"
+    },
+    {
+        "vCPU": 8,
+        "RAM": 32,
+        "hourly_rate": 0.4176,
+        "instance_name": "c2-standard-8"
+    },
+    {
+        "vCPU": 16,
+        "RAM": 64,
+        "hourly_rate": 0.8352,
+        "instance_name": "c2-standard-16"
+    },
+    {
+        "vCPU": 30,
+        "RAM": 120,
+        "hourly_rate": 1.566,
+        "instance_name": "c2-standard-30"
+    },
+    {
+        "vCPU": 60,
+        "RAM": 240,
+        "hourly_rate": 3.1321,
+        "instance_name": "c2-standard-60"
+    },
+    {
+        "vCPU": 2,
+        "RAM": 8,
+        "hourly_rate": 0.0908,
+        "instance_name": "c2d-standard-2"
+    },
+    {
+        "vCPU": 4,
+        "RAM": 16,
+        "hourly_rate": 0.1816,
+        "instance_name": "c2d-standard-4"
+    },
+    {
+        "vCPU": 8,
+        "RAM": 32,
+        "hourly_rate": 0.3632,
+        "instance_name": "c2d-standard-8"
+    },
+    {
+        "vCPU": 16,
+        "RAM": 64,
+        "hourly_rate": 0.7263,
+        "instance_name": "c2d-standard-16"
+    },
+    {
+        "vCPU": 32,
+        "RAM": 128,
+        "hourly_rate": 1.4527,
+        "instance_name": "c2d-standard-32"
+    },
+    {
+        "vCPU": 56,
+        "RAM": 224,
+        "hourly_rate": 2.5422,
+        "instance_name": "c2d-standard-56"
+    },
+    {
+        "vCPU": 112,
+        "RAM": 448,
+        "hourly_rate": 5.0844,
+        "instance_name": "c2d-standard-112"
+    },
+    {
+        "vCPU": 2,
+        "RAM": 16,
+        "hourly_rate": 0.1225,
+        "instance_name": "c2d-highmem-2"
+    },
+    {
+        "vCPU": 4,
+        "RAM": 32,
+        "hourly_rate": 0.2449,
+        "instance_name": "c2d-highmem-4"
+    },
+    {
+        "vCPU": 8,
+        "RAM": 64,
+        "hourly_rate": 0.4898,
+        "instance_name": "c2d-highmem-8"
+    },
+    {
+        "vCPU": 16,
+        "RAM": 128,
+        "hourly_rate": 0.9797,
+        "instance_name": "c2d-highmem-16"
+    },
+    {
+        "vCPU": 32,
+        "RAM": 256,
+        "hourly_rate": 1.9594,
+        "instance_name": "c2d-highmem-32"
+    },
+    {
+        "vCPU": 56,
+        "RAM": 448,
+        "hourly_rate": 3.4289,
+        "instance_name": "c2d-highmem-56"
+    },
+    {
+        "vCPU": 112,
+        "RAM": 896,
+        "hourly_rate": 6.8578,
+        "instance_name": "c2d-highmem-112"
+    },
+    {
+        "vCPU": 2,
+        "RAM": 4,
+        "hourly_rate": 0.075,
+        "instance_name": "c2d-highcpu-2"
+    },
+    {
+        "vCPU": 4,
+        "RAM": 8,
+        "hourly_rate": 0.1499,
+        "instance_name": "c2d-highcpu-4"
+    },
+    {
+        "vCPU": 8,
+        "RAM": 16,
+        "hourly_rate": 0.2998,
+        "instance_name": "c2d-highcpu-8"
+    },
+    {
+        "vCPU": 16,
+        "RAM": 32,
+        "hourly_rate": 0.5997,
+        "instance_name": "c2d-highcpu-16"
+    },
+    {
+        "vCPU": 32,
+        "RAM": 64,
+        "hourly_rate": 1.1993,
+        "instance_name": "c2d-highcpu-32"
+    },
+    {
+        "vCPU": 56,
+        "RAM": 112,
+        "hourly_rate": 2.0989,
+        "instance_name": "c2d-highcpu-56"
+    },
+    {
+        "vCPU": 112,
+        "RAM": 224,
+        "hourly_rate": 4.1977,
+        "instance_name": "c2d-highcpu-112"
+    }
+]

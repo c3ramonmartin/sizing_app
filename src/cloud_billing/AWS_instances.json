@@ -1,0 +1,2936 @@
+[
+    {
+        "hourly_rate": 0.0255,
+        "vCPU": 1,
+        "RAM": 2,
+        "instance_name": "a1.medium"
+    },
+    {
+        "hourly_rate": 0.051,
+        "vCPU": 2,
+        "RAM": 4,
+        "instance_name": "a1.large"
+    },
+    {
+        "hourly_rate": 0.102,
+        "vCPU": 4,
+        "RAM": 8,
+        "instance_name": "a1.xlarge"
+    },
+    {
+        "hourly_rate": 0.204,
+        "vCPU": 8,
+        "RAM": 16,
+        "instance_name": "a1.2xlarge"
+    },
+    {
+        "hourly_rate": 0.408,
+        "vCPU": 16,
+        "RAM": 32,
+        "instance_name": "a1.4xlarge"
+    },
+    {
+        "hourly_rate": 0.408,
+        "vCPU": 16,
+        "RAM": 32,
+        "instance_name": "a1.metal"
+    },
+    {
+        "hourly_rate": 0.0042,
+        "vCPU": 2,
+        "RAM": 0,
+        "instance_name": "t4g.nano"
+    },
+    {
+        "hourly_rate": 0.0084,
+        "vCPU": 2,
+        "RAM": 1,
+        "instance_name": "t4g.micro"
+    },
+    {
+        "hourly_rate": 0.0168,
+        "vCPU": 2,
+        "RAM": 2,
+        "instance_name": "t4g.small"
+    },
+    {
+        "hourly_rate": 0.0336,
+        "vCPU": 2,
+        "RAM": 4,
+        "instance_name": "t4g.medium"
+    },
+    {
+        "hourly_rate": 0.0672,
+        "vCPU": 2,
+        "RAM": 8,
+        "instance_name": "t4g.large"
+    },
+    {
+        "hourly_rate": 0.1344,
+        "vCPU": 4,
+        "RAM": 16,
+        "instance_name": "t4g.xlarge"
+    },
+    {
+        "hourly_rate": 0.2688,
+        "vCPU": 8,
+        "RAM": 32,
+        "instance_name": "t4g.2xlarge"
+    },
+    {
+        "hourly_rate": 0.0052,
+        "vCPU": 2,
+        "RAM": 0,
+        "instance_name": "t3.nano"
+    },
+    {
+        "hourly_rate": 0.0104,
+        "vCPU": 2,
+        "RAM": 1,
+        "instance_name": "t3.micro"
+    },
+    {
+        "hourly_rate": 0.0208,
+        "vCPU": 2,
+        "RAM": 2,
+        "instance_name": "t3.small"
+    },
+    {
+        "hourly_rate": 0.0416,
+        "vCPU": 2,
+        "RAM": 4,
+        "instance_name": "t3.medium"
+    },
+    {
+        "hourly_rate": 0.0832,
+        "vCPU": 2,
+        "RAM": 8,
+        "instance_name": "t3.large"
+    },
+    {
+        "hourly_rate": 0.1664,
+        "vCPU": 4,
+        "RAM": 16,
+        "instance_name": "t3.xlarge"
+    },
+    {
+        "hourly_rate": 0.3328,
+        "vCPU": 8,
+        "RAM": 32,
+        "instance_name": "t3.2xlarge"
+    },
+    {
+        "hourly_rate": 0.0047,
+        "vCPU": 2,
+        "RAM": 0,
+        "instance_name": "t3a.nano"
+    },
+    {
+        "hourly_rate": 0.0094,
+        "vCPU": 2,
+        "RAM": 1,
+        "instance_name": "t3a.micro"
+    },
+    {
+        "hourly_rate": 0.0188,
+        "vCPU": 2,
+        "RAM": 2,
+        "instance_name": "t3a.small"
+    },
+    {
+        "hourly_rate": 0.0376,
+        "vCPU": 2,
+        "RAM": 4,
+        "instance_name": "t3a.medium"
+    },
+    {
+        "hourly_rate": 0.0752,
+        "vCPU": 2,
+        "RAM": 8,
+        "instance_name": "t3a.large"
+    },
+    {
+        "hourly_rate": 0.1504,
+        "vCPU": 4,
+        "RAM": 16,
+        "instance_name": "t3a.xlarge"
+    },
+    {
+        "hourly_rate": 0.3008,
+        "vCPU": 8,
+        "RAM": 32,
+        "instance_name": "t3a.2xlarge"
+    },
+    {
+        "hourly_rate": 0.0058,
+        "vCPU": 1,
+        "RAM": 0,
+        "instance_name": "t2.nano"
+    },
+    {
+        "hourly_rate": 0.0116,
+        "vCPU": 1,
+        "RAM": 1,
+        "instance_name": "t2.micro"
+    },
+    {
+        "hourly_rate": 0.023,
+        "vCPU": 1,
+        "RAM": 2,
+        "instance_name": "t2.small"
+    },
+    {
+        "hourly_rate": 0.0464,
+        "vCPU": 2,
+        "RAM": 4,
+        "instance_name": "t2.medium"
+    },
+    {
+        "hourly_rate": 0.0928,
+        "vCPU": 2,
+        "RAM": 8,
+        "instance_name": "t2.large"
+    },
+    {
+        "hourly_rate": 0.1856,
+        "vCPU": 4,
+        "RAM": 16,
+        "instance_name": "t2.xlarge"
+    },
+    {
+        "hourly_rate": 0.3712,
+        "vCPU": 8,
+        "RAM": 32,
+        "instance_name": "t2.2xlarge"
+    },
+    {
+        "hourly_rate": 0.0864,
+        "vCPU": 2,
+        "RAM": 8,
+        "instance_name": "m6a.large"
+    },
+    {
+        "hourly_rate": 0.1728,
+        "vCPU": 4,
+        "RAM": 16,
+        "instance_name": "m6a.xlarge"
+    },
+    {
+        "hourly_rate": 0.3456,
+        "vCPU": 8,
+        "RAM": 32,
+        "instance_name": "m6a.2xlarge"
+    },
+    {
+        "hourly_rate": 0.6912,
+        "vCPU": 16,
+        "RAM": 64,
+        "instance_name": "m6a.4xlarge"
+    },
+    {
+        "hourly_rate": 1.3824,
+        "vCPU": 32,
+        "RAM": 128,
+        "instance_name": "m6a.8xlarge"
+    },
+    {
+        "hourly_rate": 2.0736,
+        "vCPU": 48,
+        "RAM": 192,
+        "instance_name": "m6a.12xlarge"
+    },
+    {
+        "hourly_rate": 2.7648,
+        "vCPU": 64,
+        "RAM": 256,
+        "instance_name": "m6a.16xlarge"
+    },
+    {
+        "hourly_rate": 4.1472,
+        "vCPU": 96,
+        "RAM": 384,
+        "instance_name": "m6a.24xlarge"
+    },
+    {
+        "hourly_rate": 5.5296,
+        "vCPU": 128,
+        "RAM": 512,
+        "instance_name": "m6a.32xlarge"
+    },
+    {
+        "hourly_rate": 8.2944,
+        "vCPU": 192,
+        "RAM": 768,
+        "instance_name": "m6a.48xlarge"
+    },
+    {
+        "hourly_rate": 8.2944,
+        "vCPU": 192,
+        "RAM": 768,
+        "instance_name": "m6a.metal"
+    },
+    {
+        "hourly_rate": 0.0385,
+        "vCPU": 1,
+        "RAM": 4,
+        "instance_name": "m6g.medium"
+    },
+    {
+        "hourly_rate": 0.077,
+        "vCPU": 2,
+        "RAM": 8,
+        "instance_name": "m6g.large"
+    },
+    {
+        "hourly_rate": 0.154,
+        "vCPU": 4,
+        "RAM": 16,
+        "instance_name": "m6g.xlarge"
+    },
+    {
+        "hourly_rate": 0.308,
+        "vCPU": 8,
+        "RAM": 32,
+        "instance_name": "m6g.2xlarge"
+    },
+    {
+        "hourly_rate": 0.616,
+        "vCPU": 16,
+        "RAM": 64,
+        "instance_name": "m6g.4xlarge"
+    },
+    {
+        "hourly_rate": 1.232,
+        "vCPU": 32,
+        "RAM": 128,
+        "instance_name": "m6g.8xlarge"
+    },
+    {
+        "hourly_rate": 1.848,
+        "vCPU": 48,
+        "RAM": 192,
+        "instance_name": "m6g.12xlarge"
+    },
+    {
+        "hourly_rate": 2.464,
+        "vCPU": 64,
+        "RAM": 256,
+        "instance_name": "m6g.16xlarge"
+    },
+    {
+        "hourly_rate": 2.464,
+        "vCPU": 64,
+        "RAM": 256,
+        "instance_name": "m6g.metal"
+    },
+    {
+        "hourly_rate": 0.0452,
+        "vCPU": 1,
+        "RAM": 4,
+        "instance_name": "m6gd.medium"
+    },
+    {
+        "hourly_rate": 0.0904,
+        "vCPU": 2,
+        "RAM": 8,
+        "instance_name": "m6gd.large"
+    },
+    {
+        "hourly_rate": 0.1808,
+        "vCPU": 4,
+        "RAM": 16,
+        "instance_name": "m6gd.xlarge"
+    },
+    {
+        "hourly_rate": 0.3616,
+        "vCPU": 8,
+        "RAM": 32,
+        "instance_name": "m6gd.2xlarge"
+    },
+    {
+        "hourly_rate": 0.7232,
+        "vCPU": 16,
+        "RAM": 64,
+        "instance_name": "m6gd.4xlarge"
+    },
+    {
+        "hourly_rate": 1.4464,
+        "vCPU": 32,
+        "RAM": 128,
+        "instance_name": "m6gd.8xlarge"
+    },
+    {
+        "hourly_rate": 2.1696,
+        "vCPU": 48,
+        "RAM": 192,
+        "instance_name": "m6gd.12xlarge"
+    },
+    {
+        "hourly_rate": 2.8928,
+        "vCPU": 64,
+        "RAM": 256,
+        "instance_name": "m6gd.16xlarge"
+    },
+    {
+        "hourly_rate": 2.8928,
+        "vCPU": 64,
+        "RAM": 256,
+        "instance_name": "m6gd.metal"
+    },
+    {
+        "hourly_rate": 0.096,
+        "vCPU": 2,
+        "RAM": 8,
+        "instance_name": "m6i.large"
+    },
+    {
+        "hourly_rate": 0.192,
+        "vCPU": 4,
+        "RAM": 16,
+        "instance_name": "m6i.xlarge"
+    },
+    {
+        "hourly_rate": 0.384,
+        "vCPU": 8,
+        "RAM": 32,
+        "instance_name": "m6i.2xlarge"
+    },
+    {
+        "hourly_rate": 0.768,
+        "vCPU": 16,
+        "RAM": 64,
+        "instance_name": "m6i.4xlarge"
+    },
+    {
+        "hourly_rate": 1.536,
+        "vCPU": 32,
+        "RAM": 128,
+        "instance_name": "m6i.8xlarge"
+    },
+    {
+        "hourly_rate": 2.304,
+        "vCPU": 48,
+        "RAM": 192,
+        "instance_name": "m6i.12xlarge"
+    },
+    {
+        "hourly_rate": 3.072,
+        "vCPU": 64,
+        "RAM": 256,
+        "instance_name": "m6i.16xlarge"
+    },
+    {
+        "hourly_rate": 4.608,
+        "vCPU": 96,
+        "RAM": 384,
+        "instance_name": "m6i.24xlarge"
+    },
+    {
+        "hourly_rate": 6.144,
+        "vCPU": 128,
+        "RAM": 512,
+        "instance_name": "m6i.32xlarge"
+    },
+    {
+        "hourly_rate": 6.144,
+        "vCPU": 128,
+        "RAM": 512,
+        "instance_name": "m6i.metal"
+    },
+    {
+        "hourly_rate": 0.11865,
+        "vCPU": 2,
+        "RAM": 8,
+        "instance_name": "m6id.large"
+    },
+    {
+        "hourly_rate": 0.2373,
+        "vCPU": 4,
+        "RAM": 16,
+        "instance_name": "m6id.xlarge"
+    },
+    {
+        "hourly_rate": 0.4746,
+        "vCPU": 8,
+        "RAM": 32,
+        "instance_name": "m6id.2xlarge"
+    },
+    {
+        "hourly_rate": 0.9492,
+        "vCPU": 16,
+        "RAM": 64,
+        "instance_name": "m6id.4xlarge"
+    },
+    {
+        "hourly_rate": 1.8984,
+        "vCPU": 32,
+        "RAM": 128,
+        "instance_name": "m6id.8xlarge"
+    },
+    {
+        "hourly_rate": 2.8476,
+        "vCPU": 48,
+        "RAM": 192,
+        "instance_name": "m6id.12xlarge"
+    },
+    {
+        "hourly_rate": 3.7968,
+        "vCPU": 64,
+        "RAM": 256,
+        "instance_name": "m6id.16xlarge"
+    },
+    {
+        "hourly_rate": 5.6952,
+        "vCPU": 96,
+        "RAM": 384,
+        "instance_name": "m6id.24xlarge"
+    },
+    {
+        "hourly_rate": 7.5936,
+        "vCPU": 128,
+        "RAM": 512,
+        "instance_name": "m6id.32xlarge"
+    },
+    {
+        "hourly_rate": 7.5936,
+        "vCPU": 128,
+        "RAM": 512,
+        "instance_name": "m6id.metal"
+    },
+    {
+        "hourly_rate": 0.096,
+        "vCPU": 2,
+        "RAM": 8,
+        "instance_name": "m5.large"
+    },
+    {
+        "hourly_rate": 0.192,
+        "vCPU": 4,
+        "RAM": 16,
+        "instance_name": "m5.xlarge"
+    },
+    {
+        "hourly_rate": 0.384,
+        "vCPU": 8,
+        "RAM": 32,
+        "instance_name": "m5.2xlarge"
+    },
+    {
+        "hourly_rate": 0.768,
+        "vCPU": 16,
+        "RAM": 64,
+        "instance_name": "m5.4xlarge"
+    },
+    {
+        "hourly_rate": 1.536,
+        "vCPU": 32,
+        "RAM": 128,
+        "instance_name": "m5.8xlarge"
+    },
+    {
+        "hourly_rate": 2.304,
+        "vCPU": 48,
+        "RAM": 192,
+        "instance_name": "m5.12xlarge"
+    },
+    {
+        "hourly_rate": 3.072,
+        "vCPU": 64,
+        "RAM": 256,
+        "instance_name": "m5.16xlarge"
+    },
+    {
+        "hourly_rate": 4.608,
+        "vCPU": 96,
+        "RAM": 384,
+        "instance_name": "m5.24xlarge"
+    },
+    {
+        "hourly_rate": 4.608,
+        "vCPU": 96,
+        "RAM": 384,
+        "instance_name": "m5.metal"
+    },
+    {
+        "hourly_rate": 0.086,
+        "vCPU": 2,
+        "RAM": 8,
+        "instance_name": "m5a.large"
+    },
+    {
+        "hourly_rate": 0.172,
+        "vCPU": 4,
+        "RAM": 16,
+        "instance_name": "m5a.xlarge"
+    },
+    {
+        "hourly_rate": 0.344,
+        "vCPU": 8,
+        "RAM": 32,
+        "instance_name": "m5a.2xlarge"
+    },
+    {
+        "hourly_rate": 0.688,
+        "vCPU": 16,
+        "RAM": 64,
+        "instance_name": "m5a.4xlarge"
+    },
+    {
+        "hourly_rate": 1.376,
+        "vCPU": 32,
+        "RAM": 128,
+        "instance_name": "m5a.8xlarge"
+    },
+    {
+        "hourly_rate": 2.064,
+        "vCPU": 48,
+        "RAM": 192,
+        "instance_name": "m5a.12xlarge"
+    },
+    {
+        "hourly_rate": 2.752,
+        "vCPU": 64,
+        "RAM": 256,
+        "instance_name": "m5a.16xlarge"
+    },
+    {
+        "hourly_rate": 4.128,
+        "vCPU": 96,
+        "RAM": 384,
+        "instance_name": "m5a.24xlarge"
+    },
+    {
+        "hourly_rate": 0.103,
+        "vCPU": 2,
+        "RAM": 8,
+        "instance_name": "m5ad.large"
+    },
+    {
+        "hourly_rate": 0.206,
+        "vCPU": 4,
+        "RAM": 16,
+        "instance_name": "m5ad.xlarge"
+    },
+    {
+        "hourly_rate": 0.412,
+        "vCPU": 8,
+        "RAM": 32,
+        "instance_name": "m5ad.2xlarge"
+    },
+    {
+        "hourly_rate": 0.824,
+        "vCPU": 16,
+        "RAM": 64,
+        "instance_name": "m5ad.4xlarge"
+    },
+    {
+        "hourly_rate": 1.648,
+        "vCPU": 32,
+        "RAM": 128,
+        "instance_name": "m5ad.8xlarge"
+    },
+    {
+        "hourly_rate": 2.472,
+        "vCPU": 48,
+        "RAM": 192,
+        "instance_name": "m5ad.12xlarge"
+    },
+    {
+        "hourly_rate": 3.296,
+        "vCPU": 64,
+        "RAM": 256,
+        "instance_name": "m5ad.16xlarge"
+    },
+    {
+        "hourly_rate": 4.944,
+        "vCPU": 96,
+        "RAM": 384,
+        "instance_name": "m5ad.24xlarge"
+    },
+    {
+        "hourly_rate": 0.113,
+        "vCPU": 2,
+        "RAM": 8,
+        "instance_name": "m5d.large"
+    },
+    {
+        "hourly_rate": 0.226,
+        "vCPU": 4,
+        "RAM": 16,
+        "instance_name": "m5d.xlarge"
+    },
+    {
+        "hourly_rate": 0.452,
+        "vCPU": 8,
+        "RAM": 32,
+        "instance_name": "m5d.2xlarge"
+    },
+    {
+        "hourly_rate": 0.904,
+        "vCPU": 16,
+        "RAM": 64,
+        "instance_name": "m5d.4xlarge"
+    },
+    {
+        "hourly_rate": 1.808,
+        "vCPU": 32,
+        "RAM": 128,
+        "instance_name": "m5d.8xlarge"
+    },
+    {
+        "hourly_rate": 2.712,
+        "vCPU": 48,
+        "RAM": 192,
+        "instance_name": "m5d.12xlarge"
+    },
+    {
+        "hourly_rate": 3.616,
+        "vCPU": 64,
+        "RAM": 256,
+        "instance_name": "m5d.16xlarge"
+    },
+    {
+        "hourly_rate": 5.424,
+        "vCPU": 96,
+        "RAM": 384,
+        "instance_name": "m5d.24xlarge"
+    },
+    {
+        "hourly_rate": 5.424,
+        "vCPU": 96,
+        "RAM": 384,
+        "instance_name": "m5d.metal"
+    },
+    {
+        "hourly_rate": 0.136,
+        "vCPU": 2,
+        "RAM": 8,
+        "instance_name": "m5dn.large"
+    },
+    {
+        "hourly_rate": 0.272,
+        "vCPU": 4,
+        "RAM": 16,
+        "instance_name": "m5dn.xlarge"
+    },
+    {
+        "hourly_rate": 0.544,
+        "vCPU": 8,
+        "RAM": 32,
+        "instance_name": "m5dn.2xlarge"
+    },
+    {
+        "hourly_rate": 1.088,
+        "vCPU": 16,
+        "RAM": 64,
+        "instance_name": "m5dn.4xlarge"
+    },
+    {
+        "hourly_rate": 2.176,
+        "vCPU": 32,
+        "RAM": 128,
+        "instance_name": "m5dn.8xlarge"
+    },
+    {
+        "hourly_rate": 3.264,
+        "vCPU": 48,
+        "RAM": 192,
+        "instance_name": "m5dn.12xlarge"
+    },
+    {
+        "hourly_rate": 4.352,
+        "vCPU": 64,
+        "RAM": 256,
+        "instance_name": "m5dn.16xlarge"
+    },
+    {
+        "hourly_rate": 6.528,
+        "vCPU": 96,
+        "RAM": 384,
+        "instance_name": "m5dn.24xlarge"
+    },
+    {
+        "hourly_rate": 6.528,
+        "vCPU": 96,
+        "RAM": 384,
+        "instance_name": "m5dn.metal"
+    },
+    {
+        "hourly_rate": 0.119,
+        "vCPU": 2,
+        "RAM": 8,
+        "instance_name": "m5n.large"
+    },
+    {
+        "hourly_rate": 0.238,
+        "vCPU": 4,
+        "RAM": 16,
+        "instance_name": "m5n.xlarge"
+    },
+    {
+        "hourly_rate": 0.476,
+        "vCPU": 8,
+        "RAM": 32,
+        "instance_name": "m5n.2xlarge"
+    },
+    {
+        "hourly_rate": 0.952,
+        "vCPU": 16,
+        "RAM": 64,
+        "instance_name": "m5n.4xlarge"
+    },
+    {
+        "hourly_rate": 1.904,
+        "vCPU": 32,
+        "RAM": 128,
+        "instance_name": "m5n.8xlarge"
+    },
+    {
+        "hourly_rate": 2.856,
+        "vCPU": 48,
+        "RAM": 192,
+        "instance_name": "m5n.12xlarge"
+    },
+    {
+        "hourly_rate": 3.808,
+        "vCPU": 64,
+        "RAM": 256,
+        "instance_name": "m5n.16xlarge"
+    },
+    {
+        "hourly_rate": 5.712,
+        "vCPU": 96,
+        "RAM": 384,
+        "instance_name": "m5n.24xlarge"
+    },
+    {
+        "hourly_rate": 5.712,
+        "vCPU": 96,
+        "RAM": 384,
+        "instance_name": "m5n.metal"
+    },
+    {
+        "hourly_rate": 0.1652,
+        "vCPU": 2,
+        "RAM": 8,
+        "instance_name": "m5zn.large"
+    },
+    {
+        "hourly_rate": 0.3303,
+        "vCPU": 4,
+        "RAM": 16,
+        "instance_name": "m5zn.xlarge"
+    },
+    {
+        "hourly_rate": 0.6607,
+        "vCPU": 8,
+        "RAM": 32,
+        "instance_name": "m5zn.2xlarge"
+    },
+    {
+        "hourly_rate": 0.991,
+        "vCPU": 12,
+        "RAM": 48,
+        "instance_name": "m5zn.3xlarge"
+    },
+    {
+        "hourly_rate": 1.982,
+        "vCPU": 24,
+        "RAM": 96,
+        "instance_name": "m5zn.6xlarge"
+    },
+    {
+        "hourly_rate": 3.9641,
+        "vCPU": 48,
+        "RAM": 192,
+        "instance_name": "m5zn.12xlarge"
+    },
+    {
+        "hourly_rate": 3.9641,
+        "vCPU": 48,
+        "RAM": 192,
+        "instance_name": "m5zn.metal"
+    },
+    {
+        "hourly_rate": 0.1,
+        "vCPU": 2,
+        "RAM": 8,
+        "instance_name": "m4.large"
+    },
+    {
+        "hourly_rate": 0.2,
+        "vCPU": 4,
+        "RAM": 16,
+        "instance_name": "m4.xlarge"
+    },
+    {
+        "hourly_rate": 0.4,
+        "vCPU": 8,
+        "RAM": 32,
+        "instance_name": "m4.2xlarge"
+    },
+    {
+        "hourly_rate": 0.8,
+        "vCPU": 16,
+        "RAM": 64,
+        "instance_name": "m4.4xlarge"
+    },
+    {
+        "hourly_rate": 2,
+        "vCPU": 40,
+        "RAM": 160,
+        "instance_name": "m4.10xlarge"
+    },
+    {
+        "hourly_rate": 3.2,
+        "vCPU": 64,
+        "RAM": 256,
+        "instance_name": "m4.16xlarge"
+    },
+    {
+        "hourly_rate": 0.0361,
+        "vCPU": 1,
+        "RAM": 2,
+        "instance_name": "c7g.medium"
+    },
+    {
+        "hourly_rate": 0.0723,
+        "vCPU": 2,
+        "RAM": 4,
+        "instance_name": "c7g.large"
+    },
+    {
+        "hourly_rate": 0.1445,
+        "vCPU": 4,
+        "RAM": 8,
+        "instance_name": "c7g.xlarge"
+    },
+    {
+        "hourly_rate": 0.289,
+        "vCPU": 8,
+        "RAM": 16,
+        "instance_name": "c7g.2xlarge"
+    },
+    {
+        "hourly_rate": 0.5781,
+        "vCPU": 16,
+        "RAM": 32,
+        "instance_name": "c7g.4xlarge"
+    },
+    {
+        "hourly_rate": 1.1562,
+        "vCPU": 32,
+        "RAM": 64,
+        "instance_name": "c7g.8xlarge"
+    },
+    {
+        "hourly_rate": 1.7342,
+        "vCPU": 48,
+        "RAM": 96,
+        "instance_name": "c7g.12xlarge"
+    },
+    {
+        "hourly_rate": 2.3123,
+        "vCPU": 64,
+        "RAM": 128,
+        "instance_name": "c7g.16xlarge"
+    },
+    {
+        "hourly_rate": 0.0765,
+        "vCPU": 2,
+        "RAM": 4,
+        "instance_name": "c6a.large"
+    },
+    {
+        "hourly_rate": 0.153,
+        "vCPU": 4,
+        "RAM": 8,
+        "instance_name": "c6a.xlarge"
+    },
+    {
+        "hourly_rate": 0.306,
+        "vCPU": 8,
+        "RAM": 16,
+        "instance_name": "c6a.2xlarge"
+    },
+    {
+        "hourly_rate": 0.612,
+        "vCPU": 16,
+        "RAM": 32,
+        "instance_name": "c6a.4xlarge"
+    },
+    {
+        "hourly_rate": 1.224,
+        "vCPU": 32,
+        "RAM": 64,
+        "instance_name": "c6a.8xlarge"
+    },
+    {
+        "hourly_rate": 1.836,
+        "vCPU": 48,
+        "RAM": 96,
+        "instance_name": "c6a.12xlarge"
+    },
+    {
+        "hourly_rate": 2.448,
+        "vCPU": 64,
+        "RAM": 128,
+        "instance_name": "c6a.16xlarge"
+    },
+    {
+        "hourly_rate": 3.672,
+        "vCPU": 96,
+        "RAM": 192,
+        "instance_name": "c6a.24xlarge"
+    },
+    {
+        "hourly_rate": 4.896,
+        "vCPU": 128,
+        "RAM": 256,
+        "instance_name": "c6a.32xlarge"
+    },
+    {
+        "hourly_rate": 7.344,
+        "vCPU": 192,
+        "RAM": 384,
+        "instance_name": "c6a.48xlarge"
+    },
+    {
+        "hourly_rate": 7.344,
+        "vCPU": 192,
+        "RAM": 384,
+        "instance_name": "c6a.metal"
+    },
+    {
+        "hourly_rate": 0.034,
+        "vCPU": 1,
+        "RAM": 2,
+        "instance_name": "c6g.medium"
+    },
+    {
+        "hourly_rate": 0.068,
+        "vCPU": 2,
+        "RAM": 4,
+        "instance_name": "c6g.large"
+    },
+    {
+        "hourly_rate": 0.136,
+        "vCPU": 4,
+        "RAM": 8,
+        "instance_name": "c6g.xlarge"
+    },
+    {
+        "hourly_rate": 0.272,
+        "vCPU": 8,
+        "RAM": 16,
+        "instance_name": "c6g.2xlarge"
+    },
+    {
+        "hourly_rate": 0.544,
+        "vCPU": 16,
+        "RAM": 32,
+        "instance_name": "c6g.4xlarge"
+    },
+    {
+        "hourly_rate": 1.088,
+        "vCPU": 32,
+        "RAM": 64,
+        "instance_name": "c6g.8xlarge"
+    },
+    {
+        "hourly_rate": 1.632,
+        "vCPU": 48,
+        "RAM": 96,
+        "instance_name": "c6g.12xlarge"
+    },
+    {
+        "hourly_rate": 2.176,
+        "vCPU": 64,
+        "RAM": 128,
+        "instance_name": "c6g.16xlarge"
+    },
+    {
+        "hourly_rate": 2.176,
+        "vCPU": 64,
+        "RAM": 128,
+        "instance_name": "c6g.metal"
+    },
+    {
+        "hourly_rate": 0.0384,
+        "vCPU": 1,
+        "RAM": 2,
+        "instance_name": "c6gd.medium"
+    },
+    {
+        "hourly_rate": 0.0768,
+        "vCPU": 2,
+        "RAM": 4,
+        "instance_name": "c6gd.large"
+    },
+    {
+        "hourly_rate": 0.1536,
+        "vCPU": 4,
+        "RAM": 8,
+        "instance_name": "c6gd.xlarge"
+    },
+    {
+        "hourly_rate": 0.3072,
+        "vCPU": 8,
+        "RAM": 16,
+        "instance_name": "c6gd.2xlarge"
+    },
+    {
+        "hourly_rate": 0.6144,
+        "vCPU": 16,
+        "RAM": 32,
+        "instance_name": "c6gd.4xlarge"
+    },
+    {
+        "hourly_rate": 1.2288,
+        "vCPU": 32,
+        "RAM": 64,
+        "instance_name": "c6gd.8xlarge"
+    },
+    {
+        "hourly_rate": 1.8432,
+        "vCPU": 48,
+        "RAM": 96,
+        "instance_name": "c6gd.12xlarge"
+    },
+    {
+        "hourly_rate": 2.4576,
+        "vCPU": 64,
+        "RAM": 128,
+        "instance_name": "c6gd.16xlarge"
+    },
+    {
+        "hourly_rate": 2.4576,
+        "vCPU": 64,
+        "RAM": 128,
+        "instance_name": "c6gd.metal"
+    },
+    {
+        "hourly_rate": 0.0432,
+        "vCPU": 1,
+        "RAM": 2,
+        "instance_name": "c6gn.medium"
+    },
+    {
+        "hourly_rate": 0.0864,
+        "vCPU": 2,
+        "RAM": 4,
+        "instance_name": "c6gn.large"
+    },
+    {
+        "hourly_rate": 0.1728,
+        "vCPU": 4,
+        "RAM": 8,
+        "instance_name": "c6gn.xlarge"
+    },
+    {
+        "hourly_rate": 0.3456,
+        "vCPU": 8,
+        "RAM": 16,
+        "instance_name": "c6gn.2xlarge"
+    },
+    {
+        "hourly_rate": 0.6912,
+        "vCPU": 16,
+        "RAM": 32,
+        "instance_name": "c6gn.4xlarge"
+    },
+    {
+        "hourly_rate": 1.3824,
+        "vCPU": 32,
+        "RAM": 64,
+        "instance_name": "c6gn.8xlarge"
+    },
+    {
+        "hourly_rate": 2.0736,
+        "vCPU": 48,
+        "RAM": 96,
+        "instance_name": "c6gn.12xlarge"
+    },
+    {
+        "hourly_rate": 2.7648,
+        "vCPU": 64,
+        "RAM": 128,
+        "instance_name": "c6gn.16xlarge"
+    },
+    {
+        "hourly_rate": 0.085,
+        "vCPU": 2,
+        "RAM": 4,
+        "instance_name": "c6i.large"
+    },
+    {
+        "hourly_rate": 0.17,
+        "vCPU": 4,
+        "RAM": 8,
+        "instance_name": "c6i.xlarge"
+    },
+    {
+        "hourly_rate": 0.34,
+        "vCPU": 8,
+        "RAM": 16,
+        "instance_name": "c6i.2xlarge"
+    },
+    {
+        "hourly_rate": 0.68,
+        "vCPU": 16,
+        "RAM": 32,
+        "instance_name": "c6i.4xlarge"
+    },
+    {
+        "hourly_rate": 1.36,
+        "vCPU": 32,
+        "RAM": 64,
+        "instance_name": "c6i.8xlarge"
+    },
+    {
+        "hourly_rate": 2.04,
+        "vCPU": 48,
+        "RAM": 96,
+        "instance_name": "c6i.12xlarge"
+    },
+    {
+        "hourly_rate": 2.72,
+        "vCPU": 64,
+        "RAM": 128,
+        "instance_name": "c6i.16xlarge"
+    },
+    {
+        "hourly_rate": 4.08,
+        "vCPU": 96,
+        "RAM": 192,
+        "instance_name": "c6i.24xlarge"
+    },
+    {
+        "hourly_rate": 5.44,
+        "vCPU": 128,
+        "RAM": 256,
+        "instance_name": "c6i.32xlarge"
+    },
+    {
+        "hourly_rate": 5.44,
+        "vCPU": 128,
+        "RAM": 256,
+        "instance_name": "c6i.metal"
+    },
+    {
+        "hourly_rate": 0.1008,
+        "vCPU": 2,
+        "RAM": 4,
+        "instance_name": "c6id.large"
+    },
+    {
+        "hourly_rate": 0.2016,
+        "vCPU": 4,
+        "RAM": 8,
+        "instance_name": "c6id.xlarge"
+    },
+    {
+        "hourly_rate": 0.4032,
+        "vCPU": 8,
+        "RAM": 16,
+        "instance_name": "c6id.2xlarge"
+    },
+    {
+        "hourly_rate": 0.8064,
+        "vCPU": 16,
+        "RAM": 32,
+        "instance_name": "c6id.4xlarge"
+    },
+    {
+        "hourly_rate": 1.6128,
+        "vCPU": 32,
+        "RAM": 64,
+        "instance_name": "c6id.8xlarge"
+    },
+    {
+        "hourly_rate": 2.4192,
+        "vCPU": 48,
+        "RAM": 96,
+        "instance_name": "c6id.12xlarge"
+    },
+    {
+        "hourly_rate": 3.2256,
+        "vCPU": 64,
+        "RAM": 128,
+        "instance_name": "c6id.16xlarge"
+    },
+    {
+        "hourly_rate": 4.8384,
+        "vCPU": 96,
+        "RAM": 192,
+        "instance_name": "c6id.24xlarge"
+    },
+    {
+        "hourly_rate": 6.4512,
+        "vCPU": 128,
+        "RAM": 256,
+        "instance_name": "c6id.32xlarge"
+    },
+    {
+        "hourly_rate": 6.4512,
+        "vCPU": 128,
+        "RAM": 256,
+        "instance_name": "c6id.metal"
+    },
+    {
+        "hourly_rate": 0.085,
+        "vCPU": 2,
+        "RAM": 4,
+        "instance_name": "c5.large"
+    },
+    {
+        "hourly_rate": 0.17,
+        "vCPU": 4,
+        "RAM": 8,
+        "instance_name": "c5.xlarge"
+    },
+    {
+        "hourly_rate": 0.34,
+        "vCPU": 8,
+        "RAM": 16,
+        "instance_name": "c5.2xlarge"
+    },
+    {
+        "hourly_rate": 0.68,
+        "vCPU": 16,
+        "RAM": 32,
+        "instance_name": "c5.4xlarge"
+    },
+    {
+        "hourly_rate": 1.53,
+        "vCPU": 36,
+        "RAM": 72,
+        "instance_name": "c5.9xlarge"
+    },
+    {
+        "hourly_rate": 2.04,
+        "vCPU": 48,
+        "RAM": 96,
+        "instance_name": "c5.12xlarge"
+    },
+    {
+        "hourly_rate": 3.06,
+        "vCPU": 72,
+        "RAM": 144,
+        "instance_name": "c5.18xlarge"
+    },
+    {
+        "hourly_rate": 4.08,
+        "vCPU": 96,
+        "RAM": 192,
+        "instance_name": "c5.24xlarge"
+    },
+    {
+        "hourly_rate": 4.08,
+        "vCPU": 96,
+        "RAM": 192,
+        "instance_name": "c5.metal"
+    },
+    {
+        "hourly_rate": 0.077,
+        "vCPU": 2,
+        "RAM": 4,
+        "instance_name": "c5a.large"
+    },
+    {
+        "hourly_rate": 0.154,
+        "vCPU": 4,
+        "RAM": 8,
+        "instance_name": "c5a.xlarge"
+    },
+    {
+        "hourly_rate": 0.308,
+        "vCPU": 8,
+        "RAM": 16,
+        "instance_name": "c5a.2xlarge"
+    },
+    {
+        "hourly_rate": 0.616,
+        "vCPU": 16,
+        "RAM": 32,
+        "instance_name": "c5a.4xlarge"
+    },
+    {
+        "hourly_rate": 1.232,
+        "vCPU": 32,
+        "RAM": 64,
+        "instance_name": "c5a.8xlarge"
+    },
+    {
+        "hourly_rate": 1.848,
+        "vCPU": 48,
+        "RAM": 96,
+        "instance_name": "c5a.12xlarge"
+    },
+    {
+        "hourly_rate": 2.464,
+        "vCPU": 64,
+        "RAM": 128,
+        "instance_name": "c5a.16xlarge"
+    },
+    {
+        "hourly_rate": 3.696,
+        "vCPU": 96,
+        "RAM": 192,
+        "instance_name": "c5a.24xlarge"
+    },
+    {
+        "hourly_rate": 0.086,
+        "vCPU": 2,
+        "RAM": 4,
+        "instance_name": "c5ad.large"
+    },
+    {
+        "hourly_rate": 0.172,
+        "vCPU": 4,
+        "RAM": 8,
+        "instance_name": "c5ad.xlarge"
+    },
+    {
+        "hourly_rate": 0.344,
+        "vCPU": 8,
+        "RAM": 16,
+        "instance_name": "c5ad.2xlarge"
+    },
+    {
+        "hourly_rate": 0.688,
+        "vCPU": 16,
+        "RAM": 32,
+        "instance_name": "c5ad.4xlarge"
+    },
+    {
+        "hourly_rate": 1.376,
+        "vCPU": 32,
+        "RAM": 64,
+        "instance_name": "c5ad.8xlarge"
+    },
+    {
+        "hourly_rate": 2.064,
+        "vCPU": 48,
+        "RAM": 96,
+        "instance_name": "c5ad.12xlarge"
+    },
+    {
+        "hourly_rate": 2.752,
+        "vCPU": 64,
+        "RAM": 128,
+        "instance_name": "c5ad.16xlarge"
+    },
+    {
+        "hourly_rate": 4.128,
+        "vCPU": 96,
+        "RAM": 192,
+        "instance_name": "c5ad.24xlarge"
+    },
+    {
+        "hourly_rate": 0.096,
+        "vCPU": 2,
+        "RAM": 4,
+        "instance_name": "c5d.large"
+    },
+    {
+        "hourly_rate": 0.192,
+        "vCPU": 4,
+        "RAM": 8,
+        "instance_name": "c5d.xlarge"
+    },
+    {
+        "hourly_rate": 0.384,
+        "vCPU": 8,
+        "RAM": 16,
+        "instance_name": "c5d.2xlarge"
+    },
+    {
+        "hourly_rate": 0.768,
+        "vCPU": 16,
+        "RAM": 32,
+        "instance_name": "c5d.4xlarge"
+    },
+    {
+        "hourly_rate": 1.728,
+        "vCPU": 36,
+        "RAM": 72,
+        "instance_name": "c5d.9xlarge"
+    },
+    {
+        "hourly_rate": 2.304,
+        "vCPU": 48,
+        "RAM": 96,
+        "instance_name": "c5d.12xlarge"
+    },
+    {
+        "hourly_rate": 3.456,
+        "vCPU": 72,
+        "RAM": 144,
+        "instance_name": "c5d.18xlarge"
+    },
+    {
+        "hourly_rate": 4.608,
+        "vCPU": 96,
+        "RAM": 192,
+        "instance_name": "c5d.24xlarge"
+    },
+    {
+        "hourly_rate": 4.608,
+        "vCPU": 96,
+        "RAM": 192,
+        "instance_name": "c5d.metal"
+    },
+    {
+        "hourly_rate": 0.108,
+        "vCPU": 2,
+        "RAM": 5,
+        "instance_name": "c5n.large"
+    },
+    {
+        "hourly_rate": 0.216,
+        "vCPU": 4,
+        "RAM": 10,
+        "instance_name": "c5n.xlarge"
+    },
+    {
+        "hourly_rate": 0.432,
+        "vCPU": 8,
+        "RAM": 21,
+        "instance_name": "c5n.2xlarge"
+    },
+    {
+        "hourly_rate": 0.864,
+        "vCPU": 16,
+        "RAM": 42,
+        "instance_name": "c5n.4xlarge"
+    },
+    {
+        "hourly_rate": 1.944,
+        "vCPU": 36,
+        "RAM": 96,
+        "instance_name": "c5n.9xlarge"
+    },
+    {
+        "hourly_rate": 3.888,
+        "vCPU": 72,
+        "RAM": 192,
+        "instance_name": "c5n.18xlarge"
+    },
+    {
+        "hourly_rate": 3.888,
+        "vCPU": 72,
+        "RAM": 192,
+        "instance_name": "c5n.metal"
+    },
+    {
+        "hourly_rate": 0.1,
+        "vCPU": 2,
+        "RAM": 3,
+        "instance_name": "c4.large"
+    },
+    {
+        "hourly_rate": 0.199,
+        "vCPU": 4,
+        "RAM": 7,
+        "instance_name": "c4.xlarge"
+    },
+    {
+        "hourly_rate": 0.398,
+        "vCPU": 8,
+        "RAM": 15,
+        "instance_name": "c4.2xlarge"
+    },
+    {
+        "hourly_rate": 0.796,
+        "vCPU": 16,
+        "RAM": 30,
+        "instance_name": "c4.4xlarge"
+    },
+    {
+        "hourly_rate": 1.591,
+        "vCPU": 36,
+        "RAM": 60,
+        "instance_name": "c4.8xlarge"
+    },
+    {
+        "hourly_rate": 32.7726,
+        "vCPU": 96,
+        "RAM": 1152,
+        "instance_name": "p4d.24xlarge"
+    },
+    {
+        "hourly_rate": 3.06,
+        "vCPU": 8,
+        "RAM": 61,
+        "instance_name": "p3.2xlarge"
+    },
+    {
+        "hourly_rate": 12.24,
+        "vCPU": 32,
+        "RAM": 244,
+        "instance_name": "p3.8xlarge"
+    },
+    {
+        "hourly_rate": 24.48,
+        "vCPU": 64,
+        "RAM": 488,
+        "instance_name": "p3.16xlarge"
+    },
+    {
+        "hourly_rate": 0.9,
+        "vCPU": 4,
+        "RAM": 61,
+        "instance_name": "p2.xlarge"
+    },
+    {
+        "hourly_rate": 7.2,
+        "vCPU": 32,
+        "RAM": 488,
+        "instance_name": "p2.8xlarge"
+    },
+    {
+        "hourly_rate": 14.4,
+        "vCPU": 64,
+        "RAM": 732,
+        "instance_name": "p2.16xlarge"
+    },
+    {
+        "hourly_rate": 0.37853,
+        "vCPU": 4,
+        "RAM": 16,
+        "instance_name": "g4ad.xlarge"
+    },
+    {
+        "hourly_rate": 0.54117,
+        "vCPU": 8,
+        "RAM": 32,
+        "instance_name": "g4ad.2xlarge"
+    },
+    {
+        "hourly_rate": 0.867,
+        "vCPU": 16,
+        "RAM": 64,
+        "instance_name": "g4ad.4xlarge"
+    },
+    {
+        "hourly_rate": 1.734,
+        "vCPU": 32,
+        "RAM": 128,
+        "instance_name": "g4ad.8xlarge"
+    },
+    {
+        "hourly_rate": 3.468,
+        "vCPU": 64,
+        "RAM": 256,
+        "instance_name": "g4ad.16xlarge"
+    },
+    {
+        "hourly_rate": 0.526,
+        "vCPU": 4,
+        "RAM": 16,
+        "instance_name": "g4dn.xlarge"
+    },
+    {
+        "hourly_rate": 0.752,
+        "vCPU": 8,
+        "RAM": 32,
+        "instance_name": "g4dn.2xlarge"
+    },
+    {
+        "hourly_rate": 1.204,
+        "vCPU": 16,
+        "RAM": 64,
+        "instance_name": "g4dn.4xlarge"
+    },
+    {
+        "hourly_rate": 2.176,
+        "vCPU": 32,
+        "RAM": 128,
+        "instance_name": "g4dn.8xlarge"
+    },
+    {
+        "hourly_rate": 3.912,
+        "vCPU": 48,
+        "RAM": 192,
+        "instance_name": "g4dn.12xlarge"
+    },
+    {
+        "hourly_rate": 4.352,
+        "vCPU": 64,
+        "RAM": 256,
+        "instance_name": "g4dn.16xlarge"
+    },
+    {
+        "hourly_rate": 7.824,
+        "vCPU": 96,
+        "RAM": 384,
+        "instance_name": "g4dn.metal"
+    },
+    {
+        "hourly_rate": 1.14,
+        "vCPU": 16,
+        "RAM": 122,
+        "instance_name": "g3.4xlarge"
+    },
+    {
+        "hourly_rate": 2.28,
+        "vCPU": 32,
+        "RAM": 244,
+        "instance_name": "g3.8xlarge"
+    },
+    {
+        "hourly_rate": 4.56,
+        "vCPU": 64,
+        "RAM": 488,
+        "instance_name": "g3.16xlarge"
+    },
+    {
+        "hourly_rate": 0.75,
+        "vCPU": 4,
+        "RAM": 30,
+        "instance_name": "g3s.xlarge"
+    },
+    {
+        "hourly_rate": 0.0835,
+        "vCPU": 1,
+        "RAM": 16,
+        "instance_name": "x2gd.medium"
+    },
+    {
+        "hourly_rate": 0.167,
+        "vCPU": 2,
+        "RAM": 32,
+        "instance_name": "x2gd.large"
+    },
+    {
+        "hourly_rate": 0.334,
+        "vCPU": 4,
+        "RAM": 64,
+        "instance_name": "x2gd.xlarge"
+    },
+    {
+        "hourly_rate": 0.668,
+        "vCPU": 8,
+        "RAM": 128,
+        "instance_name": "x2gd.2xlarge"
+    },
+    {
+        "hourly_rate": 1.336,
+        "vCPU": 16,
+        "RAM": 256,
+        "instance_name": "x2gd.4xlarge"
+    },
+    {
+        "hourly_rate": 2.672,
+        "vCPU": 32,
+        "RAM": 512,
+        "instance_name": "x2gd.8xlarge"
+    },
+    {
+        "hourly_rate": 4.008,
+        "vCPU": 48,
+        "RAM": 768,
+        "instance_name": "x2gd.12xlarge"
+    },
+    {
+        "hourly_rate": 5.344,
+        "vCPU": 64,
+        "RAM": 1024,
+        "instance_name": "x2gd.16xlarge"
+    },
+    {
+        "hourly_rate": 5.344,
+        "vCPU": 64,
+        "RAM": 1024,
+        "instance_name": "x2gd.metal"
+    },
+    {
+        "hourly_rate": 6.669,
+        "vCPU": 64,
+        "RAM": 1024,
+        "instance_name": "x2idn.16xlarge"
+    },
+    {
+        "hourly_rate": 10.0035,
+        "vCPU": 96,
+        "RAM": 1536,
+        "instance_name": "x2idn.24xlarge"
+    },
+    {
+        "hourly_rate": 13.338,
+        "vCPU": 128,
+        "RAM": 2048,
+        "instance_name": "x2idn.32xlarge"
+    },
+    {
+        "hourly_rate": 13.338,
+        "vCPU": 128,
+        "RAM": 2048,
+        "instance_name": "x2idn.metal"
+    },
+    {
+        "hourly_rate": 0.83363,
+        "vCPU": 4,
+        "RAM": 128,
+        "instance_name": "x2iedn.xlarge"
+    },
+    {
+        "hourly_rate": 1.66725,
+        "vCPU": 8,
+        "RAM": 256,
+        "instance_name": "x2iedn.2xlarge"
+    },
+    {
+        "hourly_rate": 3.3345,
+        "vCPU": 16,
+        "RAM": 512,
+        "instance_name": "x2iedn.4xlarge"
+    },
+    {
+        "hourly_rate": 6.669,
+        "vCPU": 32,
+        "RAM": 1024,
+        "instance_name": "x2iedn.8xlarge"
+    },
+    {
+        "hourly_rate": 13.338,
+        "vCPU": 64,
+        "RAM": 2048,
+        "instance_name": "x2iedn.16xlarge"
+    },
+    {
+        "hourly_rate": 20.007,
+        "vCPU": 96,
+        "RAM": 3072,
+        "instance_name": "x2iedn.24xlarge"
+    },
+    {
+        "hourly_rate": 26.676,
+        "vCPU": 128,
+        "RAM": 4096,
+        "instance_name": "x2iedn.32xlarge"
+    },
+    {
+        "hourly_rate": 26.676,
+        "vCPU": 128,
+        "RAM": 4096,
+        "instance_name": "x2iedn.metal"
+    },
+    {
+        "hourly_rate": 6.669,
+        "vCPU": 64,
+        "RAM": 976,
+        "instance_name": "x1.16xlarge"
+    },
+    {
+        "hourly_rate": 13.338,
+        "vCPU": 128,
+        "RAM": 1952,
+        "instance_name": "x1.32xlarge"
+    },
+    {
+        "hourly_rate": 0.834,
+        "vCPU": 4,
+        "RAM": 122,
+        "instance_name": "x1e.xlarge"
+    },
+    {
+        "hourly_rate": 1.668,
+        "vCPU": 8,
+        "RAM": 244,
+        "instance_name": "x1e.2xlarge"
+    },
+    {
+        "hourly_rate": 3.336,
+        "vCPU": 16,
+        "RAM": 488,
+        "instance_name": "x1e.4xlarge"
+    },
+    {
+        "hourly_rate": 6.672,
+        "vCPU": 32,
+        "RAM": 976,
+        "instance_name": "x1e.8xlarge"
+    },
+    {
+        "hourly_rate": 13.344,
+        "vCPU": 64,
+        "RAM": 1952,
+        "instance_name": "x1e.16xlarge"
+    },
+    {
+        "hourly_rate": 26.688,
+        "vCPU": 128,
+        "RAM": 3904,
+        "instance_name": "x1e.32xlarge"
+    },
+    {
+        "hourly_rate": 0.1134,
+        "vCPU": 2,
+        "RAM": 16,
+        "instance_name": "r6a.large"
+    },
+    {
+        "hourly_rate": 0.2268,
+        "vCPU": 4,
+        "RAM": 32,
+        "instance_name": "r6a.xlarge"
+    },
+    {
+        "hourly_rate": 0.4536,
+        "vCPU": 8,
+        "RAM": 64,
+        "instance_name": "r6a.2xlarge"
+    },
+    {
+        "hourly_rate": 0.9072,
+        "vCPU": 16,
+        "RAM": 128,
+        "instance_name": "r6a.4xlarge"
+    },
+    {
+        "hourly_rate": 1.8144,
+        "vCPU": 32,
+        "RAM": 256,
+        "instance_name": "r6a.8xlarge"
+    },
+    {
+        "hourly_rate": 2.7216,
+        "vCPU": 48,
+        "RAM": 384,
+        "instance_name": "r6a.12xlarge"
+    },
+    {
+        "hourly_rate": 3.6288,
+        "vCPU": 64,
+        "RAM": 512,
+        "instance_name": "r6a.16xlarge"
+    },
+    {
+        "hourly_rate": 5.4432,
+        "vCPU": 96,
+        "RAM": 768,
+        "instance_name": "r6a.24xlarge"
+    },
+    {
+        "hourly_rate": 7.2576,
+        "vCPU": 128,
+        "RAM": 1024,
+        "instance_name": "r6a.32xlarge"
+    },
+    {
+        "hourly_rate": 10.8864,
+        "vCPU": 192,
+        "RAM": 1536,
+        "instance_name": "r6a.48xlarge"
+    },
+    {
+        "hourly_rate": 10.8864,
+        "vCPU": 192,
+        "RAM": 1536,
+        "instance_name": "r6a.metal"
+    },
+    {
+        "hourly_rate": 0.0504,
+        "vCPU": 1,
+        "RAM": 8,
+        "instance_name": "r6g.medium"
+    },
+    {
+        "hourly_rate": 0.1008,
+        "vCPU": 2,
+        "RAM": 16,
+        "instance_name": "r6g.large"
+    },
+    {
+        "hourly_rate": 0.2016,
+        "vCPU": 4,
+        "RAM": 32,
+        "instance_name": "r6g.xlarge"
+    },
+    {
+        "hourly_rate": 0.4032,
+        "vCPU": 8,
+        "RAM": 64,
+        "instance_name": "r6g.2xlarge"
+    },
+    {
+        "hourly_rate": 0.8064,
+        "vCPU": 16,
+        "RAM": 128,
+        "instance_name": "r6g.4xlarge"
+    },
+    {
+        "hourly_rate": 1.6128,
+        "vCPU": 32,
+        "RAM": 256,
+        "instance_name": "r6g.8xlarge"
+    },
+    {
+        "hourly_rate": 2.4192,
+        "vCPU": 48,
+        "RAM": 384,
+        "instance_name": "r6g.12xlarge"
+    },
+    {
+        "hourly_rate": 3.2256,
+        "vCPU": 64,
+        "RAM": 512,
+        "instance_name": "r6g.16xlarge"
+    },
+    {
+        "hourly_rate": 3.2256,
+        "vCPU": 64,
+        "RAM": 512,
+        "instance_name": "r6g.metal"
+    },
+    {
+        "hourly_rate": 0.0576,
+        "vCPU": 1,
+        "RAM": 8,
+        "instance_name": "r6gd.medium"
+    },
+    {
+        "hourly_rate": 0.1152,
+        "vCPU": 2,
+        "RAM": 16,
+        "instance_name": "r6gd.large"
+    },
+    {
+        "hourly_rate": 0.2304,
+        "vCPU": 4,
+        "RAM": 32,
+        "instance_name": "r6gd.xlarge"
+    },
+    {
+        "hourly_rate": 0.4608,
+        "vCPU": 8,
+        "RAM": 64,
+        "instance_name": "r6gd.2xlarge"
+    },
+    {
+        "hourly_rate": 0.9216,
+        "vCPU": 16,
+        "RAM": 128,
+        "instance_name": "r6gd.4xlarge"
+    },
+    {
+        "hourly_rate": 1.8432,
+        "vCPU": 32,
+        "RAM": 256,
+        "instance_name": "r6gd.8xlarge"
+    },
+    {
+        "hourly_rate": 2.7648,
+        "vCPU": 48,
+        "RAM": 384,
+        "instance_name": "r6gd.12xlarge"
+    },
+    {
+        "hourly_rate": 3.6864,
+        "vCPU": 64,
+        "RAM": 512,
+        "instance_name": "r6gd.16xlarge"
+    },
+    {
+        "hourly_rate": 3.6864,
+        "vCPU": 64,
+        "RAM": 512,
+        "instance_name": "r6gd.metal"
+    },
+    {
+        "hourly_rate": 0.126,
+        "vCPU": 2,
+        "RAM": 16,
+        "instance_name": "r6i.large"
+    },
+    {
+        "hourly_rate": 0.252,
+        "vCPU": 4,
+        "RAM": 32,
+        "instance_name": "r6i.xlarge"
+    },
+    {
+        "hourly_rate": 0.504,
+        "vCPU": 8,
+        "RAM": 64,
+        "instance_name": "r6i.2xlarge"
+    },
+    {
+        "hourly_rate": 1.008,
+        "vCPU": 16,
+        "RAM": 128,
+        "instance_name": "r6i.4xlarge"
+    },
+    {
+        "hourly_rate": 2.016,
+        "vCPU": 32,
+        "RAM": 256,
+        "instance_name": "r6i.8xlarge"
+    },
+    {
+        "hourly_rate": 3.024,
+        "vCPU": 48,
+        "RAM": 384,
+        "instance_name": "r6i.12xlarge"
+    },
+    {
+        "hourly_rate": 4.032,
+        "vCPU": 64,
+        "RAM": 512,
+        "instance_name": "r6i.16xlarge"
+    },
+    {
+        "hourly_rate": 4.032,
+        "vCPU": 96,
+        "RAM": 768,
+        "instance_name": "r6i.24xlarge"
+    },
+    {
+        "hourly_rate": 8.064,
+        "vCPU": 128,
+        "RAM": 1024,
+        "instance_name": "r6i.32xlarge"
+    },
+    {
+        "hourly_rate": 8.064,
+        "vCPU": 128,
+        "RAM": 1024,
+        "instance_name": "r6i.metal"
+    },
+    {
+        "hourly_rate": 0.1512,
+        "vCPU": 2,
+        "RAM": 16,
+        "instance_name": "r6id.large"
+    },
+    {
+        "hourly_rate": 0.3024,
+        "vCPU": 4,
+        "RAM": 32,
+        "instance_name": "r6id.xlarge"
+    },
+    {
+        "hourly_rate": 0.6048,
+        "vCPU": 8,
+        "RAM": 64,
+        "instance_name": "r6id.2xlarge"
+    },
+    {
+        "hourly_rate": 1.2096,
+        "vCPU": 16,
+        "RAM": 128,
+        "instance_name": "r6id.4xlarge"
+    },
+    {
+        "hourly_rate": 2.4192,
+        "vCPU": 32,
+        "RAM": 256,
+        "instance_name": "r6id.8xlarge"
+    },
+    {
+        "hourly_rate": 3.6288,
+        "vCPU": 48,
+        "RAM": 384,
+        "instance_name": "r6id.12xlarge"
+    },
+    {
+        "hourly_rate": 4.8384,
+        "vCPU": 64,
+        "RAM": 512,
+        "instance_name": "r6id.16xlarge"
+    },
+    {
+        "hourly_rate": 7.2576,
+        "vCPU": 96,
+        "RAM": 768,
+        "instance_name": "r6id.24xlarge"
+    },
+    {
+        "hourly_rate": 9.6768,
+        "vCPU": 128,
+        "RAM": 1024,
+        "instance_name": "r6id.32xlarge"
+    },
+    {
+        "hourly_rate": 9.6768,
+        "vCPU": 128,
+        "RAM": 1024,
+        "instance_name": "r6id.metal"
+    },
+    {
+        "hourly_rate": 0.126,
+        "vCPU": 2,
+        "RAM": 16,
+        "instance_name": "r5.large"
+    },
+    {
+        "hourly_rate": 0.252,
+        "vCPU": 4,
+        "RAM": 32,
+        "instance_name": "r5.xlarge"
+    },
+    {
+        "hourly_rate": 0.504,
+        "vCPU": 8,
+        "RAM": 64,
+        "instance_name": "r5.2xlarge"
+    },
+    {
+        "hourly_rate": 1.008,
+        "vCPU": 16,
+        "RAM": 128,
+        "instance_name": "r5.4xlarge"
+    },
+    {
+        "hourly_rate": 2.016,
+        "vCPU": 32,
+        "RAM": 256,
+        "instance_name": "r5.8xlarge"
+    },
+    {
+        "hourly_rate": 3.024,
+        "vCPU": 48,
+        "RAM": 384,
+        "instance_name": "r5.12xlarge"
+    },
+    {
+        "hourly_rate": 4.032,
+        "vCPU": 64,
+        "RAM": 512,
+        "instance_name": "r5.16xlarge"
+    },
+    {
+        "hourly_rate": 6.048,
+        "vCPU": 96,
+        "RAM": 768,
+        "instance_name": "r5.24xlarge"
+    },
+    {
+        "hourly_rate": 6.048,
+        "vCPU": 96,
+        "RAM": 768,
+        "instance_name": "r5.metal"
+    },
+    {
+        "hourly_rate": 0.113,
+        "vCPU": 2,
+        "RAM": 16,
+        "instance_name": "r5a.large"
+    },
+    {
+        "hourly_rate": 0.226,
+        "vCPU": 4,
+        "RAM": 32,
+        "instance_name": "r5a.xlarge"
+    },
+    {
+        "hourly_rate": 0.452,
+        "vCPU": 8,
+        "RAM": 64,
+        "instance_name": "r5a.2xlarge"
+    },
+    {
+        "hourly_rate": 0.904,
+        "vCPU": 16,
+        "RAM": 128,
+        "instance_name": "r5a.4xlarge"
+    },
+    {
+        "hourly_rate": 1.808,
+        "vCPU": 32,
+        "RAM": 256,
+        "instance_name": "r5a.8xlarge"
+    },
+    {
+        "hourly_rate": 2.712,
+        "vCPU": 48,
+        "RAM": 384,
+        "instance_name": "r5a.12xlarge"
+    },
+    {
+        "hourly_rate": 3.616,
+        "vCPU": 64,
+        "RAM": 512,
+        "instance_name": "r5a.16xlarge"
+    },
+    {
+        "hourly_rate": 5.424,
+        "vCPU": 96,
+        "RAM": 768,
+        "instance_name": "r5a.24xlarge"
+    },
+    {
+        "hourly_rate": 0.131,
+        "vCPU": 2,
+        "RAM": 16,
+        "instance_name": "r5ad.large"
+    },
+    {
+        "hourly_rate": 0.262,
+        "vCPU": 4,
+        "RAM": 32,
+        "instance_name": "r5ad.xlarge"
+    },
+    {
+        "hourly_rate": 0.524,
+        "vCPU": 8,
+        "RAM": 64,
+        "instance_name": "r5ad.2xlarge"
+    },
+    {
+        "hourly_rate": 1.048,
+        "vCPU": 16,
+        "RAM": 128,
+        "instance_name": "r5ad.4xlarge"
+    },
+    {
+        "hourly_rate": 2.096,
+        "vCPU": 32,
+        "RAM": 256,
+        "instance_name": "r5ad.8xlarge"
+    },
+    {
+        "hourly_rate": 3.144,
+        "vCPU": 48,
+        "RAM": 384,
+        "instance_name": "r5ad.12xlarge"
+    },
+    {
+        "hourly_rate": 4.192,
+        "vCPU": 64,
+        "RAM": 512,
+        "instance_name": "r5ad.16xlarge"
+    },
+    {
+        "hourly_rate": 6.288,
+        "vCPU": 96,
+        "RAM": 768,
+        "instance_name": "r5ad.24xlarge"
+    },
+    {
+        "hourly_rate": 0.149,
+        "vCPU": 2,
+        "RAM": 16,
+        "instance_name": "r5b.large"
+    },
+    {
+        "hourly_rate": 0.298,
+        "vCPU": 4,
+        "RAM": 32,
+        "instance_name": "r5b.xlarge"
+    },
+    {
+        "hourly_rate": 0.596,
+        "vCPU": 8,
+        "RAM": 64,
+        "instance_name": "r5b.2xlarge"
+    },
+    {
+        "hourly_rate": 1.192,
+        "vCPU": 16,
+        "RAM": 128,
+        "instance_name": "r5b.4xlarge"
+    },
+    {
+        "hourly_rate": 2.384,
+        "vCPU": 32,
+        "RAM": 256,
+        "instance_name": "r5b.8xlarge"
+    },
+    {
+        "hourly_rate": 3.576,
+        "vCPU": 48,
+        "RAM": 384,
+        "instance_name": "r5b.12xlarge"
+    },
+    {
+        "hourly_rate": 4.768,
+        "vCPU": 64,
+        "RAM": 512,
+        "instance_name": "r5b.16xlarge"
+    },
+    {
+        "hourly_rate": 7.152,
+        "vCPU": 96,
+        "RAM": 768,
+        "instance_name": "r5b.24xlarge"
+    },
+    {
+        "hourly_rate": 7.152,
+        "vCPU": 96,
+        "RAM": 768,
+        "instance_name": "r5b.metal"
+    },
+    {
+        "hourly_rate": 0.144,
+        "vCPU": 2,
+        "RAM": 16,
+        "instance_name": "r5d.large"
+    },
+    {
+        "hourly_rate": 0.288,
+        "vCPU": 4,
+        "RAM": 32,
+        "instance_name": "r5d.xlarge"
+    },
+    {
+        "hourly_rate": 0.576,
+        "vCPU": 8,
+        "RAM": 64,
+        "instance_name": "r5d.2xlarge"
+    },
+    {
+        "hourly_rate": 1.152,
+        "vCPU": 16,
+        "RAM": 128,
+        "instance_name": "r5d.4xlarge"
+    },
+    {
+        "hourly_rate": 2.304,
+        "vCPU": 32,
+        "RAM": 256,
+        "instance_name": "r5d.8xlarge"
+    },
+    {
+        "hourly_rate": 3.456,
+        "vCPU": 48,
+        "RAM": 384,
+        "instance_name": "r5d.12xlarge"
+    },
+    {
+        "hourly_rate": 4.608,
+        "vCPU": 64,
+        "RAM": 512,
+        "instance_name": "r5d.16xlarge"
+    },
+    {
+        "hourly_rate": 6.912,
+        "vCPU": 96,
+        "RAM": 768,
+        "instance_name": "r5d.24xlarge"
+    },
+    {
+        "hourly_rate": 6.912,
+        "vCPU": 96,
+        "RAM": 768,
+        "instance_name": "r5d.metal"
+    },
+    {
+        "hourly_rate": 0.167,
+        "vCPU": 2,
+        "RAM": 16,
+        "instance_name": "r5dn.large"
+    },
+    {
+        "hourly_rate": 0.334,
+        "vCPU": 4,
+        "RAM": 32,
+        "instance_name": "r5dn.xlarge"
+    },
+    {
+        "hourly_rate": 0.668,
+        "vCPU": 8,
+        "RAM": 64,
+        "instance_name": "r5dn.2xlarge"
+    },
+    {
+        "hourly_rate": 1.336,
+        "vCPU": 16,
+        "RAM": 128,
+        "instance_name": "r5dn.4xlarge"
+    },
+    {
+        "hourly_rate": 2.672,
+        "vCPU": 32,
+        "RAM": 256,
+        "instance_name": "r5dn.8xlarge"
+    },
+    {
+        "hourly_rate": 4.008,
+        "vCPU": 48,
+        "RAM": 384,
+        "instance_name": "r5dn.12xlarge"
+    },
+    {
+        "hourly_rate": 5.344,
+        "vCPU": 64,
+        "RAM": 512,
+        "instance_name": "r5dn.16xlarge"
+    },
+    {
+        "hourly_rate": 8.016,
+        "vCPU": 96,
+        "RAM": 768,
+        "instance_name": "r5dn.24xlarge"
+    },
+    {
+        "hourly_rate": 8.016,
+        "vCPU": 96,
+        "RAM": 768,
+        "instance_name": "r5dn.metal"
+    },
+    {
+        "hourly_rate": 0.149,
+        "vCPU": 2,
+        "RAM": 16,
+        "instance_name": "r5n.large"
+    },
+    {
+        "hourly_rate": 0.298,
+        "vCPU": 4,
+        "RAM": 32,
+        "instance_name": "r5n.xlarge"
+    },
+    {
+        "hourly_rate": 0.596,
+        "vCPU": 8,
+        "RAM": 64,
+        "instance_name": "r5n.2xlarge"
+    },
+    {
+        "hourly_rate": 1.192,
+        "vCPU": 16,
+        "RAM": 128,
+        "instance_name": "r5n.4xlarge"
+    },
+    {
+        "hourly_rate": 2.384,
+        "vCPU": 32,
+        "RAM": 256,
+        "instance_name": "r5n.8xlarge"
+    },
+    {
+        "hourly_rate": 3.576,
+        "vCPU": 48,
+        "RAM": 384,
+        "instance_name": "r5n.12xlarge"
+    },
+    {
+        "hourly_rate": 4.768,
+        "vCPU": 64,
+        "RAM": 512,
+        "instance_name": "r5n.16xlarge"
+    },
+    {
+        "hourly_rate": 7.152,
+        "vCPU": 96,
+        "RAM": 768,
+        "instance_name": "r5n.24xlarge"
+    },
+    {
+        "hourly_rate": 7.152,
+        "vCPU": 96,
+        "RAM": 768,
+        "instance_name": "r5n.metal"
+    },
+    {
+        "hourly_rate": 0.133,
+        "vCPU": 2,
+        "RAM": 15,
+        "instance_name": "r4.large"
+    },
+    {
+        "hourly_rate": 0.266,
+        "vCPU": 4,
+        "RAM": 30,
+        "instance_name": "r4.xlarge"
+    },
+    {
+        "hourly_rate": 0.532,
+        "vCPU": 8,
+        "RAM": 61,
+        "instance_name": "r4.2xlarge"
+    },
+    {
+        "hourly_rate": 1.064,
+        "vCPU": 16,
+        "RAM": 122,
+        "instance_name": "r4.4xlarge"
+    },
+    {
+        "hourly_rate": 2.128,
+        "vCPU": 32,
+        "RAM": 244,
+        "instance_name": "r4.8xlarge"
+    },
+    {
+        "hourly_rate": 4.256,
+        "vCPU": 64,
+        "RAM": 488,
+        "instance_name": "r4.16xlarge"
+    },
+    {
+        "hourly_rate": 0.186,
+        "vCPU": 2,
+        "RAM": 16,
+        "instance_name": "z1d.large"
+    },
+    {
+        "hourly_rate": 0.372,
+        "vCPU": 4,
+        "RAM": 32,
+        "instance_name": "z1d.xlarge"
+    },
+    {
+        "hourly_rate": 0.744,
+        "vCPU": 8,
+        "RAM": 64,
+        "instance_name": "z1d.2xlarge"
+    },
+    {
+        "hourly_rate": 1.116,
+        "vCPU": 12,
+        "RAM": 96,
+        "instance_name": "z1d.3xlarge"
+    },
+    {
+        "hourly_rate": 2.232,
+        "vCPU": 24,
+        "RAM": 192,
+        "instance_name": "z1d.6xlarge"
+    },
+    {
+        "hourly_rate": 4.464,
+        "vCPU": 48,
+        "RAM": 384,
+        "instance_name": "z1d.12xlarge"
+    },
+    {
+        "hourly_rate": 4.464,
+        "vCPU": 48,
+        "RAM": 384,
+        "instance_name": "z1d.metal"
+    },
+    {
+        "hourly_rate": 0.172,
+        "vCPU": 2,
+        "RAM": 16,
+        "instance_name": "i4i.large"
+    },
+    {
+        "hourly_rate": 0.343,
+        "vCPU": 4,
+        "RAM": 32,
+        "instance_name": "i4i.xlarge"
+    },
+    {
+        "hourly_rate": 0.686,
+        "vCPU": 8,
+        "RAM": 64,
+        "instance_name": "i4i.2xlarge"
+    },
+    {
+        "hourly_rate": 1.373,
+        "vCPU": 16,
+        "RAM": 128,
+        "instance_name": "i4i.4xlarge"
+    },
+    {
+        "hourly_rate": 2.746,
+        "vCPU": 32,
+        "RAM": 256,
+        "instance_name": "i4i.8xlarge"
+    },
+    {
+        "hourly_rate": 5.491,
+        "vCPU": 64,
+        "RAM": 512,
+        "instance_name": "i4i.16xlarge"
+    },
+    {
+        "hourly_rate": 10.9824,
+        "vCPU": 128,
+        "RAM": 1024,
+        "instance_name": "i4i.32xlarge"
+    },
+    {
+        "hourly_rate": 10.982,
+        "vCPU": 128,
+        "RAM": 1024,
+        "instance_name": "i4i.metal"
+    },
+    {
+        "hourly_rate": 0.156,
+        "vCPU": 2,
+        "RAM": 15,
+        "instance_name": "i3.large"
+    },
+    {
+        "hourly_rate": 0.312,
+        "vCPU": 4,
+        "RAM": 30,
+        "instance_name": "i3.xlarge"
+    },
+    {
+        "hourly_rate": 0.624,
+        "vCPU": 8,
+        "RAM": 61,
+        "instance_name": "i3.2xlarge"
+    },
+    {
+        "hourly_rate": 1.248,
+        "vCPU": 16,
+        "RAM": 122,
+        "instance_name": "i3.4xlarge"
+    },
+    {
+        "hourly_rate": 2.496,
+        "vCPU": 32,
+        "RAM": 244,
+        "instance_name": "i3.8xlarge"
+    },
+    {
+        "hourly_rate": 4.992,
+        "vCPU": 64,
+        "RAM": 488,
+        "instance_name": "i3.16xlarge"
+    },
+    {
+        "hourly_rate": 4.992,
+        "vCPU": 72,
+        "RAM": 512,
+        "instance_name": "i3.metal"
+    },
+    {
+        "hourly_rate": 0.226,
+        "vCPU": 2,
+        "RAM": 16,
+        "instance_name": "i3en.large"
+    },
+    {
+        "hourly_rate": 0.452,
+        "vCPU": 4,
+        "RAM": 32,
+        "instance_name": "i3en.xlarge"
+    },
+    {
+        "hourly_rate": 0.904,
+        "vCPU": 8,
+        "RAM": 64,
+        "instance_name": "i3en.2xlarge"
+    },
+    {
+        "hourly_rate": 1.356,
+        "vCPU": 12,
+        "RAM": 96,
+        "instance_name": "i3en.3xlarge"
+    },
+    {
+        "hourly_rate": 2.712,
+        "vCPU": 24,
+        "RAM": 192,
+        "instance_name": "i3en.6xlarge"
+    },
+    {
+        "hourly_rate": 5.424,
+        "vCPU": 48,
+        "RAM": 384,
+        "instance_name": "i3en.12xlarge"
+    },
+    {
+        "hourly_rate": 10.848,
+        "vCPU": 96,
+        "RAM": 768,
+        "instance_name": "i3en.24xlarge"
+    },
+    {
+        "hourly_rate": 10.848,
+        "vCPU": 96,
+        "RAM": 768,
+        "instance_name": "i3en.metal"
+    },
+    {
+        "hourly_rate": 0.468,
+        "vCPU": 8,
+        "RAM": 32,
+        "instance_name": "h1.2xlarge"
+    },
+    {
+        "hourly_rate": 0.936,
+        "vCPU": 16,
+        "RAM": 64,
+        "instance_name": "h1.4xlarge"
+    },
+    {
+        "hourly_rate": 1.872,
+        "vCPU": 32,
+        "RAM": 128,
+        "instance_name": "h1.8xlarge"
+    },
+    {
+        "hourly_rate": 3.744,
+        "vCPU": 64,
+        "RAM": 256,
+        "instance_name": "h1.16xlarge"
+    },
+    {
+        "hourly_rate": 0.499,
+        "vCPU": 4,
+        "RAM": 32,
+        "instance_name": "d3.xlarge"
+    },
+    {
+        "hourly_rate": 0.999,
+        "vCPU": 8,
+        "RAM": 64,
+        "instance_name": "d3.2xlarge"
+    },
+    {
+        "hourly_rate": 1.998,
+        "vCPU": 16,
+        "RAM": 128,
+        "instance_name": "d3.4xlarge"
+    },
+    {
+        "hourly_rate": 3.99552,
+        "vCPU": 32,
+        "RAM": 256,
+        "instance_name": "d3.8xlarge"
+    },
+    {
+        "hourly_rate": 0.69,
+        "vCPU": 4,
+        "RAM": 30,
+        "instance_name": "d2.xlarge"
+    },
+    {
+        "hourly_rate": 1.38,
+        "vCPU": 8,
+        "RAM": 61,
+        "instance_name": "d2.2xlarge"
+    },
+    {
+        "hourly_rate": 2.76,
+        "vCPU": 16,
+        "RAM": 122,
+        "instance_name": "d2.4xlarge"
+    },
+    {
+        "hourly_rate": 5.52,
+        "vCPU": 36,
+        "RAM": 244,
+        "instance_name": "d2.8xlarge"
+    },
+    {
+        "hourly_rate": 109.2,
+        "vCPU": 448,
+        "RAM": 12288,
+        "instance_name": "u-12tb1.112xlarge"
+    },
+    {
+        "hourly_rate": 46.40391,
+        "vCPU": 224,
+        "RAM": 6144,
+        "instance_name": "u-6tb1.56xlarge"
+    },
+    {
+        "hourly_rate": 54.6,
+        "vCPU": 448,
+        "RAM": 6144,
+        "instance_name": "u-6tb1.112xlarge"
+    },
+    {
+        "hourly_rate": 2.88,
+        "vCPU": 96,
+        "RAM": 384,
+        "instance_name": "hpc6a.48xlarge"
+    },
+    {
+        "hourly_rate": 0.14408,
+        "vCPU": 1,
+        "RAM": 6,
+        "instance_name": "is4gen.medium"
+    },
+    {
+        "hourly_rate": 0.28815,
+        "vCPU": 2,
+        "RAM": 12,
+        "instance_name": "is4gen.large"
+    },
+    {
+        "hourly_rate": 0.5763,
+        "vCPU": 4,
+        "RAM": 24,
+        "instance_name": "is4gen.xlarge"
+    },
+    {
+        "hourly_rate": 1.1526,
+        "vCPU": 8,
+        "RAM": 48,
+        "instance_name": "is4gen.2xlarge"
+    },
+    {
+        "hourly_rate": 2.3052,
+        "vCPU": 16,
+        "RAM": 96,
+        "instance_name": "is4gen.4xlarge"
+    },
+    {
+        "hourly_rate": 4.6104,
+        "vCPU": 32,
+        "RAM": 192,
+        "instance_name": "is4gen.8xlarge"
+    },
+    {
+        "hourly_rate": 0.1819,
+        "vCPU": 2,
+        "RAM": 8,
+        "instance_name": "im4gn.large"
+    },
+    {
+        "hourly_rate": 0.36379,
+        "vCPU": 4,
+        "RAM": 16,
+        "instance_name": "im4gn.xlarge"
+    },
+    {
+        "hourly_rate": 0.72758,
+        "vCPU": 8,
+        "RAM": 32,
+        "instance_name": "im4gn.2xlarge"
+    },
+    {
+        "hourly_rate": 1.45517,
+        "vCPU": 16,
+        "RAM": 64,
+        "instance_name": "im4gn.4xlarge"
+    },
+    {
+        "hourly_rate": 2.91034,
+        "vCPU": 32,
+        "RAM": 128,
+        "instance_name": "im4gn.8xlarge"
+    },
+    {
+        "hourly_rate": 5.82067,
+        "vCPU": 64,
+        "RAM": 256,
+        "instance_name": "im4gn.16xlarge"
+    },
+    {
+        "hourly_rate": 0.228,
+        "vCPU": 4,
+        "RAM": 8,
+        "instance_name": "inf1.xlarge"
+    },
+    {
+        "hourly_rate": 0.362,
+        "vCPU": 8,
+        "RAM": 16,
+        "instance_name": "inf1.2xlarge"
+    },
+    {
+        "hourly_rate": 1.18,
+        "vCPU": 24,
+        "RAM": 48,
+        "instance_name": "inf1.6xlarge"
+    },
+    {
+        "hourly_rate": 4.721,
+        "vCPU": 96,
+        "RAM": 192,
+        "instance_name": "inf1.24xlarge"
+    }
+]
