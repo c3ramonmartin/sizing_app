@@ -31,34 +31,35 @@ function App() {
 
   return (
     <div>
-      <Grid container spacing={2} sx={{ padding: 2}} className="sizing-app">
+      <Grid container spacing={2} sx={{ padding: 2 }} className="sizing-app">
         <Grid item>
-          <InputLabel>Size:</InputLabel>  
-          <Select name="sizes" onChange = {handleSizeChange}>
-            {
-              sizes.map((item) => {
-                return <MenuItem key={item} value={item}>{item}</MenuItem>
-              })
-            }
+          <InputLabel>Size:</InputLabel>
+          <Select name="sizes" onChange={handleSizeChange}>
+            {sizes.map((item) => {
+              return <MenuItem key={item} value={item}>{item}</MenuItem>;
+            })}
           </Select>
         </Grid>
         <Grid item>
-          <InputLabel>Cloud:</InputLabel> 
+          <InputLabel>Cloud:</InputLabel>
           <Select name="cloud" onChange={handleCloudChange}>
-            {
-              clouds.map((item) => {
-                return <MenuItem key={item} value={item}>{item}</MenuItem>
-              })
-            }
+            {clouds.map((item) => {
+              return <MenuItem key={item} value={item}>{item}</MenuItem>;
+            })}
           </Select>
         </Grid>
-        
       </Grid>
-      <>
-        <CloudDataGrid env='dev' data={devData} key='dev-data'/>
-        <CloudDataGrid env='qa' data={qaData} key='qa-data'/>
-        <CloudDataGrid env='prod' data={prodData} key='prod-data'/>
-      </>
+      <Grid container direction="column" spacing={4}>
+        <Grid item>
+          <CloudDataGrid env='Dev' data={devData} key='dev-data' />
+        </Grid>
+        <Grid item>
+          <CloudDataGrid env='QA' data={qaData} key='qa-data' />
+        </Grid>
+        <Grid item>
+          <CloudDataGrid env='Prod' data={prodData} key='prod-data' />
+        </Grid>
+      </Grid>
     </div>
   );
 }

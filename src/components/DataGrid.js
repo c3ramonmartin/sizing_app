@@ -96,11 +96,14 @@ export function CloudDataGrid(props) {
       headerName: 'Total RAM Size',
       valueGetter: (value, row) => `${row.instance_count*row.ram}`,
     },
-    { field: "on", headerName: 'On', editable:true},
+    { field: "on", headerName: 'On', editable:true, 
+      valueFormatter: (value) => `${value}%`
+    },
     {
       field: "monthlyCost",
       headerName: 'Monthly Cost',
-      valueGetter: (value, row) => `${24*30*row.hourly_rate*row.on/100}`,
+      valueGetter: (value, row) => `${(24*30*row.hourly_rate*row.on/100).toFixed(2)}`,
+      valueFormatter: (value) => `$${value}`
     }
   ]
   
@@ -115,19 +118,21 @@ export function CloudDataGrid(props) {
         className={`${env}-data-grid`}
         rows={data}
         columns={columns}
-        initialState={{
-          pagination: {
-            paginationModel: {
-              pageSize: 9,
-            },
-          },
-        }}
+        // initialState={{
+        //   pagination: {
+        //     paginationModel: {
+        //       pageSize: 9,
+        //     },
+        //   },
+        // }}
+        pagination={false}
         processRowUpdate={handleCellEdit}
-        pageSizeOptions={[9]}
+        // pageSizeOptions={[9]}
         checkboxSelection={false}
         disableRowSelectionOnClick
+        hideFooter={true}
       />
-      <b>Subtotal: </b> {subtotal}
+      <b>Subtotal: </b> {`$${subtotal.toFixed(2)}`}
     </Box>
   );
 }
