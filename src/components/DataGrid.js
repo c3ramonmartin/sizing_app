@@ -55,16 +55,19 @@ export function generateRows(env, cloud, size) {
 
 export function CloudDataGrid(props) {
   const env = props.env
-  const [data, setData] = useState([])
-  const [subtotal, setSubtotal]=useState(0)
+  const data = props.data
+  const setData = props.setData
+  const subtotal = props.subtotal
+  const setSubtotal = props.setSubtotal
+
+
 
   useEffect(() => {
     setData(props.data);
-    console.log(`set data`)
   }, [props]);
 
   useEffect(() => {
-    const total = data.reduce((acc, row) => acc + (24 * 30 * row.hourly_rate * row.on / 100), 0);
+    const total = data.reduce((acc, row) => acc + (24 * (365/12) * row.instance_count * row.hourly_rate * row.on / 100), 0);
     setSubtotal(total)
   }, [data] )
 
@@ -85,12 +88,13 @@ export function CloudDataGrid(props) {
     { field: "instance_name", headerName: 'Instance Name'},
     { field: "vcpus", headerName: 'vCPUs'},
     { field: "ram", headerName: 'RAM'},
-    { field: "instance_count", headerName: 'Instance Count'},
+    { field: "instance_count", headerName: 'Instance Count', editable:true},
     {
       field: "total_vcpus",
       headerName: 'Total vCPU Count',
       valueGetter: (value, row) => `${row.instance_count*row.vcpus}`,
     },
+    { field: "hrly_cost", headerName: "hrly cost", valueGetter:( value, row) => row.hourly_rate},
     {
       field: "total_ram",
       headerName: 'Total RAM Size',
@@ -102,7 +106,7 @@ export function CloudDataGrid(props) {
     {
       field: "monthlyCost",
       headerName: 'Monthly Cost',
-      valueGetter: (value, row) => `${(24*30*row.hourly_rate*row.on/100).toFixed(2)}`,
+      valueGetter: (value, row) => `${(24*(365/12)*row.instance_count*row.hourly_rate*(row.on/100)).toFixed(2)}`,
       valueFormatter: (value) => `$${value}`
     }
   ]
@@ -118,16 +122,8 @@ export function CloudDataGrid(props) {
         className={`${env}-data-grid`}
         rows={data}
         columns={columns}
-        // initialState={{
-        //   pagination: {
-        //     paginationModel: {
-        //       pageSize: 9,
-        //     },
-        //   },
-        // }}
         pagination={false}
         processRowUpdate={handleCellEdit}
-        // pageSizeOptions={[9]}
         checkboxSelection={false}
         disableRowSelectionOnClick
         hideFooter={true}
