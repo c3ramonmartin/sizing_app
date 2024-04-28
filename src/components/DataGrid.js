@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Box from '@mui/material/Box';
 import { DataGrid } from '@mui/x-data-grid';
 import deepClone from 'lodash/cloneDeep';
@@ -55,33 +55,60 @@ export function generateRows(env, cloud, size) {
 
 export function CloudDataGrid(props) {
   const env = props.env
-  const data = props.data
+  const [data, setData] = useState([])
+  const [subtotal, setSubtotal]=useState(0)
 
-  if (data.length === 0) {
-    return <></>
-  }
+  useEffect(() => {
+    setData(props.data);
+    console.log(`set data`)
+  }, [props]);
+
+  useEffect(() => {
+    const total = data.reduce((acc, row) => acc + (24 * 30 * row.hourly_rate * row.on / 100), 0);
+    setSubtotal(total)
+  }, [data] )
+
+  const handleCellEdit = (newRow) => {
+    const updatedData = data.map((row) => {
+      if (row.id === newRow.id) {
+        return newRow;
+      }
+      return row;
+    });
+    setData(updatedData);
+    return newRow;
+  };
+
 
   let columns = [
     { field: "name", headerName: "Purpose" },
     { field: "instance_name", headerName: 'Instance Name'},
-    { field: "vcpus", headerName: 'vcpus'},
+    { field: "vcpus", headerName: 'vCPUs'},
+    { field: "ram", headerName: 'RAM'},
     { field: "instance_count", headerName: 'Instance Count'},
     {
       field: "total_vcpus",
       headerName: 'Total vCPU Count',
       valueGetter: (value, row) => `${row.instance_count*row.vcpus}`,
     },
-    { field: "ram", headerName: 'RAM'},
-    { field: "on", headerName: 'On'},
+    {
+      field: "total_ram",
+      headerName: 'Total RAM Size',
+      valueGetter: (value, row) => `${row.instance_count*row.ram}`,
+    },
+    { field: "on", headerName: 'On', editable:true},
     {
       field: "monthlyCost",
       headerName: 'Monthly Cost',
-      valueGetter: (value, row) => `${24*30*row.hourly_rate}`,
+      valueGetter: (value, row) => `${24*30*row.hourly_rate*row.on/100}`,
     }
   ]
   
   return (
-    <Box sx={{ height: 400, width: '100%' }}>
+    (data.length === 0)?
+    <></>
+    :
+    <Box sx={{ height: '100%', width: '100%' }}>
       <b>Environment: </b> {env}
       <DataGrid
         key={`${env}-data-grid`}
@@ -91,14 +118,16 @@ export function CloudDataGrid(props) {
         initialState={{
           pagination: {
             paginationModel: {
-              pageSize: 5,
+              pageSize: 9,
             },
           },
         }}
-        pageSizeOptions={[5]}
-        checkboxSelection
+        processRowUpdate={handleCellEdit}
+        pageSizeOptions={[9]}
+        checkboxSelection={false}
         disableRowSelectionOnClick
       />
+      <b>Subtotal: </b> {subtotal}
     </Box>
   );
 }
