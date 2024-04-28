@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import './App.css';
 import { generateRows, CloudDataGrid } from './components/DataGrid';
-import { FormControl, InputLabel, Select, Typography, Grid, MenuItem } from '@mui/material';
+import { FormControl, InputLabel, Select, Box, Typography, Grid, MenuItem, Paper } from '@mui/material';
 
 function App() {
   const sizes = ['S', 'M', 'L', 'XL'];
@@ -36,41 +36,48 @@ function App() {
 
   return (
     <div>
-      <Grid container spacing={2} sx={{ padding: 2 }} className="sizing-app">
-        <Grid item>
-          <InputLabel>Size:</InputLabel>
-          <Select name="sizes" onChange={handleSizeChange}>
-            {sizes.map((item) => {
-              return (
-                <MenuItem key={item} value={item}>
-                  {item}
-                </MenuItem>
-              );
-            })}
-          </Select>
+      <Paper sx={{position:'fixed', margin:'2em', zIndex:'50'}}>
+        <Grid container spacing={2} sx={{ padding: 2 }} className="sizing-app">
+          <Grid item>
+            <InputLabel>Size:</InputLabel>
+            <Select name="sizes" onChange={handleSizeChange}>
+              {sizes.map((item) => {
+                return (
+                  <MenuItem key={item} value={item}>
+                    {item}
+                  </MenuItem>
+                );
+              })}
+            </Select>
+          </Grid>
+          <Grid item>
+            <InputLabel>Cloud:</InputLabel>
+            <Select name="cloud" onChange={handleCloudChange}>
+              {clouds.map((item) => {
+                return (
+                  <MenuItem key={item} value={item}>
+                    {item}
+                  </MenuItem>
+                );
+              })}
+            </Select>
+          </Grid>
+          <Grid item minWidth={'100%'}>
+            <Box>
+              <b>Total: {total}</b>
+            </Box>
+          </Grid>
         </Grid>
-        <Grid item>
-          <InputLabel>Cloud:</InputLabel>
-          <Select name="cloud" onChange={handleCloudChange}>
-            {clouds.map((item) => {
-              return (
-                <MenuItem key={item} value={item}>
-                  {item}
-                </MenuItem>
-              );
-            })}
-          </Select>
-        </Grid>
-        <Grid item>
-          <b>Total: {total}</b>
-        </Grid>
-      </Grid>
+      </Paper>
+
       <Grid
         container
         direction="column"
         spacing={4}
         justifyContent="center"
         alignItems="center"
+        paddingTop={'160px'}
+        paddingBottom={'2em'}
       >
         <Grid item>
           <CloudDataGrid
